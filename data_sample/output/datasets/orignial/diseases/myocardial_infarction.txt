@@ -1,0 +1,8 @@
+be0001119	apolipoprotein e 
+be0000333	coagulation factor vii 
+be0003247	galectin-2 
+be0000606	glutamate--cysteine ligase regulatory subunit 
+be0001151	thrombomodulin 
+be0000221	angiotensin-converting enzyme 
+be0002382	arachidonate 5-lipoxygenase-activating protein 
+be0001087	lymphotoxin-alpha 

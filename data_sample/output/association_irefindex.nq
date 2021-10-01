@@ -1,0 +1,4 @@
+<http://bio2rdf.org/uniprot:p53622> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/mi:0326> .
+<http://bio2rdf.org/bind:145157> <http://bio2rdf.org/irefindex_vocabulary:interactor_b> <http://bio2rdf.org/uniprot:p53622> .
+<http://bio2rdf.org/irefindex.rogid:iqfsaxls2pi/xwhpltr2grzqlzg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/mi:0315> .
+<http://bio2rdf.org/bind:145157> <http://bio2rdf.org/irefindex_vocabulary:interactor_a> <http://bio2rdf.org/irefindex.rogid:iqfsaxls2pi/xwhpltr2grzqlzg> .

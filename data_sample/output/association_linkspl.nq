@@ -1,0 +1,3 @@
+<http://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/vocab/resource/drugs> <http://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/vocab/resource/drug-target> <http://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/vocab/resource/targets> .
+<http://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/vocab/resource/drugs> <http://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/vocab/resource/drug-pharmacologic_class> <http://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/vocab/resource/pharmacologic_classes> .
+<http://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/vocab/resource/drugs> <http://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/vocab/resource/drug-type> <http://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/vocab/resource/drug_types> .

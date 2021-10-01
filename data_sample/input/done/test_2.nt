@@ -1,0 +1,3 @@
+<http://test/instance/drug_1> <http://test/association/drug-pathway> <http://test/instance/pathway_1> .
+<http://test/instance/drug_1> <http://test/association/drug-pathway> <http://test/instance/pathway_2> .
+<http://test/instance/drug_2> <http://test/association/drug-pathway> <http://test/instance/pathway_2> .

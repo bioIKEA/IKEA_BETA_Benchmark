@@ -1,0 +1,16 @@
+<http://bio2rdf.org/drugbank:db00751> <http://bio2rdf.org/drugbank:be0000501> true 
+<http://bio2rdf.org/drugbank:db00598> <http://bio2rdf.org/drugbank:be0000501> true 
+<http://bio2rdf.org/drugbank:db00935> <http://bio2rdf.org/drugbank:be0000501> true 
+<http://bio2rdf.org/drugbank:db05492> <http://bio2rdf.org/drugbank:be0000501> true 
+<http://bio2rdf.org/drugbank:db00388> <http://bio2rdf.org/drugbank:be0000501> true 
+<http://bio2rdf.org/drugbank:db01238> <http://bio2rdf.org/drugbank:be0000501> true 
+<http://bio2rdf.org/drugbank:db01136> <http://bio2rdf.org/drugbank:be0000501> true 
+<http://bio2rdf.org/drugbank:db00934> <http://bio2rdf.org/drugbank:be0000501> true 
+<http://bio2rdf.org/drugbank:db00751> <http://bio2rdf.org/drugbank:be0003614> false 
+<http://bio2rdf.org/drugbank:db00751> <http://bio2rdf.org/drugbank:be0001055> false 
+<http://bio2rdf.org/drugbank:db00751> <http://bio2rdf.org/drugbank:be0000813> false 
+<http://bio2rdf.org/drugbank:db00751> <http://bio2rdf.org/drugbank:be0001397> false 
+<http://bio2rdf.org/drugbank:db00751> <http://bio2rdf.org/drugbank:be0004148> false 
+<http://bio2rdf.org/drugbank:db00751> <http://bio2rdf.org/drugbank:be0003133> false 
+<http://bio2rdf.org/drugbank:db00751> <http://bio2rdf.org/drugbank:be0004211> false 
+<http://bio2rdf.org/drugbank:db00751> <http://bio2rdf.org/drugbank:be0000048> false 

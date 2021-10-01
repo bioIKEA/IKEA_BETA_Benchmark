@@ -1,0 +1,101 @@
+<http://bio2rdf.org/kegg:G00001> <http://purl.org/dc/terms/identifier> "kegg:G00001"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg:G00001> <http://bio2rdf.org/bio2rdf_vocabulary:namespace> "kegg"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg:G00001> <http://bio2rdf.org/bio2rdf_vocabulary:identifier> "G00001"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg:G00001> <http://bio2rdf.org/bio2rdf_vocabulary:uri> "http://bio2rdf.org/kegg:G00001"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/bio2rdf_vocabulary:namespace> <http://www.w3.org/2000/01/rdf-schema#label> "Bio2RDF namespace" <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/bio2rdf_vocabulary:namespace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/bio2rdf_vocabulary:identifier> <http://www.w3.org/2000/01/rdf-schema#label> "Bio2RDF identifier" <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/bio2rdf_vocabulary:identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/bio2rdf_vocabulary:uri> <http://www.w3.org/2000/01/rdf-schema#label> "Bio2RDF uri" <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/bio2rdf_vocabulary:uri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/bio2rdf_vocabulary:x-identifiers.org> <http://www.w3.org/2000/01/rdf-schema#label> "identifiers.org URI" <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/bio2rdf_vocabulary:x-identifiers.org> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/bio2rdf_vocabulary:x-provider-uri> <http://www.w3.org/2000/01/rdf-schema#label> "Provider URI" <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/bio2rdf_vocabulary:x-provider-uri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg:G00001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/kegg_vocabulary:Resource> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:Resource> <http://www.w3.org/2000/01/rdf-schema#label> "kegg resource [kegg_vocabulary:Resource]" <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:Resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg:G00001> <http://rdfs.org/ns/void#inDataset> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg:G00001> <http://www.w3.org/2000/01/rdf-schema#label> "N-Acetyl-D-glucosaminyldiphosphodolichol; (GlcNAc)1 (PP-Dol)1 [kegg:G00001]"@en  <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg:G00001> <http://purl.org/dc/terms/title> "N-Acetyl-D-glucosaminyldiphosphodolichol; (GlcNAc)1 (PP-Dol)1"@en  <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg:G00001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/kegg_vocabulary:Glycan> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:Glycan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:Glycan> <http://purl.org/dc/terms/identifier> "kegg_vocabulary:Glycan"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:Glycan> <http://bio2rdf.org/bio2rdf_vocabulary:namespace> "kegg_vocabulary"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:Glycan> <http://bio2rdf.org/bio2rdf_vocabulary:identifier> "Glycan"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:Glycan> <http://bio2rdf.org/bio2rdf_vocabulary:uri> "http://bio2rdf.org/kegg_vocabulary:Glycan"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:Glycan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/kegg_vocabulary:Resource> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:Glycan> <http://rdfs.org/ns/void#inDataset> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:Glycan> <http://www.w3.org/2000/01/rdf-schema#label> "KEGG glycan [kegg_vocabulary:Glycan]"@en  <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:Glycan> <http://purl.org/dc/terms/title> "KEGG glycan"@en  <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:Glycan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:internal-id> <http://purl.org/dc/terms/identifier> "kegg_vocabulary:internal-id"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:internal-id> <http://bio2rdf.org/bio2rdf_vocabulary:namespace> "kegg_vocabulary"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:internal-id> <http://bio2rdf.org/bio2rdf_vocabulary:identifier> "internal-id"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:internal-id> <http://bio2rdf.org/bio2rdf_vocabulary:uri> "http://bio2rdf.org/kegg_vocabulary:internal-id"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:internal-id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/kegg_vocabulary:Resource> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:internal-id> <http://rdfs.org/ns/void#inDataset> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:internal-id> <http://www.w3.org/2000/01/rdf-schema#label> "internal id [kegg_vocabulary:internal-id]"@en  <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:internal-id> <http://purl.org/dc/terms/title> "internal id"@en  <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:internal-id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg:G00001> <http://bio2rdf.org/kegg_vocabulary:internal-id> "gl:G00001"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg:G00001> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.kegg.jp/dbget-bin/www_bget?G00001> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:composition> <http://purl.org/dc/terms/identifier> "kegg_vocabulary:composition"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:composition> <http://bio2rdf.org/bio2rdf_vocabulary:namespace> "kegg_vocabulary"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:composition> <http://bio2rdf.org/bio2rdf_vocabulary:identifier> "composition"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:composition> <http://bio2rdf.org/bio2rdf_vocabulary:uri> "http://bio2rdf.org/kegg_vocabulary:composition"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:composition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/kegg_vocabulary:Resource> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:composition> <http://rdfs.org/ns/void#inDataset> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:composition> <http://www.w3.org/2000/01/rdf-schema#label> "composition [kegg_vocabulary:composition]"@en  <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:composition> <http://purl.org/dc/terms/title> "composition"@en  <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:composition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg:G00001> <http://bio2rdf.org/kegg_vocabulary:composition> "(GlcNAc)1 (PP-Dol)1"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:mass> <http://purl.org/dc/terms/identifier> "kegg_vocabulary:mass"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:mass> <http://bio2rdf.org/bio2rdf_vocabulary:namespace> "kegg_vocabulary"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:mass> <http://bio2rdf.org/bio2rdf_vocabulary:identifier> "mass"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:mass> <http://bio2rdf.org/bio2rdf_vocabulary:uri> "http://bio2rdf.org/kegg_vocabulary:mass"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:mass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/kegg_vocabulary:Resource> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:mass> <http://rdfs.org/ns/void#inDataset> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:mass> <http://www.w3.org/2000/01/rdf-schema#label> "mass [kegg_vocabulary:mass]"@en  <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:mass> <http://purl.org/dc/terms/title> "mass"@en  <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:mass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg:G00001> <http://bio2rdf.org/kegg_vocabulary:mass> "203.2 (PP-Dol)"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg:G00001> <http://bio2rdf.org/kegg_vocabulary:same-as> <http://bio2rdf.org/kegg:C04500> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:same-as> <http://purl.org/dc/terms/identifier> "kegg_vocabulary:same-as"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:same-as> <http://bio2rdf.org/bio2rdf_vocabulary:namespace> "kegg_vocabulary"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:same-as> <http://bio2rdf.org/bio2rdf_vocabulary:identifier> "same-as"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:same-as> <http://bio2rdf.org/bio2rdf_vocabulary:uri> "http://bio2rdf.org/kegg_vocabulary:same-as"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:same-as> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/kegg_vocabulary:Resource> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:same-as> <http://rdfs.org/ns/void#inDataset> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:same-as> <http://www.w3.org/2000/01/rdf-schema#label> "same as [kegg_vocabulary:same-as]"@en  <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:same-as> <http://purl.org/dc/terms/title> "same as"@en  <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:same-as> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg:C04500> <http://purl.org/dc/terms/identifier> "kegg:C04500"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg:C04500> <http://bio2rdf.org/bio2rdf_vocabulary:namespace> "kegg"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg:C04500> <http://bio2rdf.org/bio2rdf_vocabulary:identifier> "C04500"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg:C04500> <http://bio2rdf.org/bio2rdf_vocabulary:uri> "http://bio2rdf.org/kegg:C04500"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg:C04500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/kegg_vocabulary:Resource> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg:C04500> <http://rdfs.org/ns/void#inDataset> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg:G00001> <http://bio2rdf.org/kegg_vocabulary:pathway> <http://bio2rdf.org/kegg:map00510> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:pathway> <http://purl.org/dc/terms/identifier> "kegg_vocabulary:pathway"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:pathway> <http://bio2rdf.org/bio2rdf_vocabulary:namespace> "kegg_vocabulary"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:pathway> <http://bio2rdf.org/bio2rdf_vocabulary:identifier> "pathway"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:pathway> <http://bio2rdf.org/bio2rdf_vocabulary:uri> "http://bio2rdf.org/kegg_vocabulary:pathway"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:pathway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/kegg_vocabulary:Resource> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:pathway> <http://rdfs.org/ns/void#inDataset> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:pathway> <http://www.w3.org/2000/01/rdf-schema#label> "pathway [kegg_vocabulary:pathway]"@en  <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:pathway> <http://purl.org/dc/terms/title> "pathway"@en  <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg_vocabulary:pathway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg:map00510> <http://purl.org/dc/terms/identifier> "kegg:map00510"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg:map00510> <http://bio2rdf.org/bio2rdf_vocabulary:namespace> "kegg"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg:map00510> <http://bio2rdf.org/bio2rdf_vocabulary:identifier> "map00510"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg:map00510> <http://bio2rdf.org/bio2rdf_vocabulary:uri> "http://bio2rdf.org/kegg:map00510"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg:map00510> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/kegg_vocabulary:Resource> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg:map00510> <http://rdfs.org/ns/void#inDataset> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg:G00001> <http://bio2rdf.org/kegg_vocabulary:pathway> <http://bio2rdf.org/kegg:map01100> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg:map01100> <http://purl.org/dc/terms/identifier> "kegg:map01100"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg:map01100> <http://bio2rdf.org/bio2rdf_vocabulary:namespace> "kegg"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg:map01100> <http://bio2rdf.org/bio2rdf_vocabulary:identifier> "map01100"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg:map01100> <http://bio2rdf.org/bio2rdf_vocabulary:uri> "http://bio2rdf.org/kegg:map01100"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg:map01100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/kegg_vocabulary:Resource> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .
+<http://bio2rdf.org/kegg:map01100> <http://rdfs.org/ns/void#inDataset> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> <http://bio2rdf.org/kegg_resource:bio2rdf.dataset.kegg.R3> .

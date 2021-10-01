@@ -1,0 +1,5 @@
+be0003381	serine/threonine-protein kinase chk2 
+be0003380	cellular tumor antigen p53 
+be0002412	dna repair protein rad51 homolog 1 
+be0002379	phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit alpha isoform 
+be0000132	androgen receptor 

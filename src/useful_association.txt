@@ -1,0 +1,529 @@
+===============goa=========================问题是function,process,component什么意思，哪些需要保留
+internal:
+# <http://bio2rdf.org/uniprot:A0A183> <http://bio2rdf.org/goa_vocabulary:x-taxonomy> <http://bio2rdf.org/taxonomy:9606>
+<http://bio2rdf.org/uniprot:A0AV02> <http://bio2rdf.org/goa_vocabulary:function> <http://bio2rdf.org/go:0015293>
+<http://bio2rdf.org/uniprot:A0A5B9> <http://bio2rdf.org/goa_vocabulary:component> <http://bio2rdf.org/go:0016021>
+
+# <http://bio2rdf.org/uniprot:A0A183> <http://bio2rdf.org/goa_vocabulary:process> <http://bio2rdf.org/go:0031424>
+
+===============hgnc=========================
+external: -> <http://bio2rdf.org/hgnc:5> <http://bio2rdf.org/hgnc_vocabulary:x-uniprot> <http://bio2rdf.org/uniprot:P04217>
+external: -> <http://bio2rdf.org/hgnc:5> <http://bio2rdf.org/hgnc_vocabulary:x-ncbigene> <http://bio2rdf.org/ncbigene:1>
+external: -> <http://bio2rdf.org/hgnc:5> <http://bio2rdf.org/hgnc_vocabulary:x-omim> <http://bio2rdf.org/omim:138670>
+
+potential:
+#  <http://bio2rdf.org/hgnc <http://bio2rdf.org/hgnc_vocabulary:x-ucsc> <http://bio2rdf.org/ucsc
+#  <http://bio2rdf.org/hgnc <http://bio2rdf.org/hgnc_vocabulary:x-refseq> <http://bio2rdf.org/refseq
+#  <http://bio2rdf.org/hgnc <http://bio2rdf.org/hgnc_vocabulary:x-ensembl> <http://bio2rdf.org/ensembl
+# <http://bio2rdf.org/hgnc <http://bio2rdf.org/hgnc_vocabulary:x-mgi> <http://bio2rdf.org/mgi
+#  <http://bio2rdf.org/hgnc <http://bio2rdf.org/hgnc_vocabulary:xref> <http://merops.sanger.ac.uk/cgi-bin/merops.cgi?id=
+# <http://bio2rdf.org/hgnc <http://bio2rdf.org/hgnc_vocabulary:x-rgd> <http://bio2rdf.org/rgd
+#  <http://bio2rdf.org/hgnc <http://bio2rdf.org/hgnc_vocabulary:x-ccds> <http://bio2rdf.org/ccds
+#  <http://bio2rdf.org/hgnc <http://bio2rdf.org/hgnc_vocabulary:x-vega> <http://bio2rdf.org/vega
+
+
+===============# kegg compound=========================
+internal: -> <http://bio2rdf.org/kegg:C00001> <http://bio2rdf.org/kegg_vocabulary:same-as> <http://bio2rdf.org/kegg:D00001>
+internal: -> <http://bio2rdf.org/kegg:C00001> <http://bio2rdf.org/kegg_vocabulary:pathway> <http://bio2rdf.org/kegg:map00190>
+
+#external: -> <http://bio2rdf.org/kegg:C00001> <http://bio2rdf.org/kegg_vocabulary:x-pubchem.compound> <http://bio2rdf.org/pubchem.compound:3303>
+#external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-chebi> <http://bio2rdf.org/chebi
+# internal: -> <http://bio2rdf.org/kegg:C00001> <http://bio2rdf.org/kegg_vocabulary:enzyme> <http://bio2rdf.org/kegg:1.1.1.1>
+# internal: -> <http://bio2rdf.org/kegg:C00018> <http://bio2rdf.org/kegg_vocabulary:drug-group> <http://bio2rdf.org/kegg:DG00132>
+# internal: -> <http://bio2rdf.org/kegg:C00306> <http://bio2rdf.org/kegg_vocabulary:organism> <http://bio2rdf.org/kegg:Human>
+# internal: -> <http://bio2rdf.org/kegg:C00001> <http://bio2rdf.org/kegg_vocabulary:reaction> <http://bio2rdf.org/kegg:R00001>
+# internal: -> <http://bio2rdf.org/kegg:C00001> <http://bio2rdf.org/kegg_vocabulary:module> <http://bio2rdf.org/kegg:M00416>
+# external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-knapsack> <http://bio2rdf.org/knapsack
+# external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-cas> <http://bio2rdf.org/cas
+# external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-lipidbank> <http://bio2rdf.org/lipidbank
+# external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-ccd> <http://bio2rdf.org/ccd
+# external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-3dmet> <http://bio2rdf.org/3dmet
+# external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-lipidmaps> <http://bio2rdf.org/lipidmaps
+# external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-atc> <http://bio2rdf.org/atc
+# external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-nikkaji> <http://bio2rdf.org/nikkaji
+
+=============== ### kegg enzyme ================================
+
+internal: -> <http://bio2rdf.org/kegg:1.1.1.1> <http://bio2rdf.org/kegg_vocabulary:product> <http://bio2rdf.org/kegg:C00071>
+internal: -> <http://bio2rdf.org/kegg:1.1.1.1> <http://bio2rdf.org/kegg_vocabulary:pathway> <http://bio2rdf.org/kegg:map00010>
+internal: -> <http://bio2rdf.org/kegg:1.1.1.1> <http://bio2rdf.org/kegg_vocabulary:gene> <http://bio2rdf.org/kegg:HSA_124>
+
+## internal: -> <http://bio2rdf.org/kegg:1.1.1.1> <http://bio2rdf.org/kegg_vocabulary:substrate> <http://bio2rdf.org/kegg:C00226>
+## internal: -> <http://bio2rdf.org/kegg:1.1.1.1> <http://bio2rdf.org/kegg_vocabulary:reference> <http://bio2rdf.org/kegg_resource:1.1.1.1.ref.1>
+## internal: -> <http://bio2rdf.org/kegg:1.1.1.1> <http://bio2rdf.org/kegg_vocabulary:orthology> <http://bio2rdf.org/kegg:K00001>
+
+external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-cas> <http://bio2rdf.org/cas
+external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-ec> <http://bio2rdf.org/ec
+
+=============== kegg drug=========================
+internal: -> <http://bio2rdf.org/kegg:D00023> <http://bio2rdf.org/kegg_vocabulary:str_map> <http://bio2rdf.org/kegg:map07032>
+# internal: -> <http://bio2rdf.org/kegg:D00063> <http://bio2rdf.org/kegg_vocabulary:source> <http://bio2rdf.org/taxonomy:1933>
+internal: -> <http://bio2rdf.org/kegg:D00011> <http://bio2rdf.org/kegg_vocabulary:pathway> <http://bio2rdf.org/kegg:map04080>
+internal: -> <http://bio2rdf.org/kegg:D00002> <http://bio2rdf.org/kegg_vocabulary:drug-group> <http://bio2rdf.org/kegg:DG00127>
+internal: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:same-as> <http://bio2rdf.org/kegg
+
+external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-drugbank> <http://bio2rdf.org/drugbank
+external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-dailymed> <http://bio2rdf.org/dailymed
+external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-pubchem.compound> <http://bio2rdf.org/pubchem.compound
+external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-cas> <http://bio2rdf.org/cas
+external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-atc> <http://bio2rdf.org/atc
+
+# internal: -> <http://bio2rdf.org/kegg_resource:c60037268d19f84cca11d28f05992d6a> <http://bio2rdf.org/kegg_vocabulary:link> <http://bio2rdf.org/kegg:K05193 K05194 K05195 K05196>
+# internal: -> <http://bio2rdf.org/kegg:D00011> <http://bio2rdf.org/kegg_vocabulary:target> <http://bio2rdf.org/kegg_resource:c60037268d19f84cca11d28f05992d6a>
+# internal: -> <http://bio2rdf.org/kegg:D00068> <http://bio2rdf.org/kegg_vocabulary:metabolism> <http://bio2rdf.org/kegg_resource:1f5e22288ed2d8dcbaf9415771a11627>
+# internal: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:component> <http://bio2rdf.org/kegg
+# internal: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:source> <http://bio2rdf.org/obi
+# internal: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:interaction> <http://bio2rdf.org/kegg_resource
+# external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-ligandbox> <http://bio2rdf.org/ligandbox
+# external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-ccd> <http://bio2rdf.org/ccd
+# external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-nikkaji> <http://bio2rdf.org/nikkaji
+
+============ kegg disease ============================
+
+# internal: -> <http://bio2rdf.org/kegg:H00001> <http://bio2rdf.org/kegg_vocabulary:gene> <http://bio2rdf.org/kegg:HSA_613> 
+# internal: -> <http://bio2rdf.org/kegg:H00001> <http://bio2rdf.org/kegg_vocabulary:ko-gene> <http://bio2rdf.org/kegg:K08878>
+internal: -> <http://bio2rdf.org/kegg:H00001> <http://bio2rdf.org/kegg_vocabulary:drug> <http://bio2rdf.org/kegg:D02197>
+# internal: -> <http://bio2rdf.org/kegg:H00249> <http://bio2rdf.org/kegg_vocabulary:ko-marker> <http://bio2rdf.org/kegg:K05261>
+# internal: -> <http://bio2rdf.org/kegg:H00001> <http://bio2rdf.org/kegg_vocabulary:marker> <http://bio2rdf.org/kegg:HSA_613>
+internal: -> <http://bio2rdf.org/kegg:H00001> <http://bio2rdf.org/kegg_vocabulary:pathway> <http://bio2rdf.org/kegg:map05202>
+external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-mesh> <http://bio2rdf.org/mesh
+external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-omim> <http://bio2rdf.org/omim
+
+
+# external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-icd-9> <http://bio2rdf.org/icd9
+# external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-mwsh> <http://bio2rdf.org/mwsh
+# external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-medlineplus> <http://bio2rdf.org/medlineplus
+# external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-icd10> <http://bio2rdf.org/icd10
+# external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-icdo> <http://bio2rdf.org/icdo
+
+
+============ kegg gene ============================
+internal: -> <http://bio2rdf.org/kegg:hsa_127550> <http://bio2rdf.org/kegg_vocabulary:drug-target> <http://bio2rdf.org/kegg:D10429>
+internal: -> <http://bio2rdf.org/kegg:hsa_10518> <http://bio2rdf.org/kegg_vocabulary:disease> <http://bio2rdf.org/kegg:H00779>
+# internal: -> <http://bio2rdf.org/kegg:hsa_442893> <http://bio2rdf.org/kegg_vocabulary:orthology> <http://bio2rdf.org/kegg:K17115>
+
+internal: -> <http://bio2rdf.org/kegg:hsa_51166> <http://bio2rdf.org/kegg_vocabulary:module> <http://bio2rdf.org/kegg:M00032>
+internal: -> <http://bio2rdf.org/kegg:hsa_10929> <http://bio2rdf.org/kegg_vocabulary:pathway> <http://bio2rdf.org/kegg:map03040>
+
+external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-hgnc> <http://bio2rdf.org/hgnc
+external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-uniprot> <http://bio2rdf.org/uniprot
+external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-omim> <http://bio2rdf.org/omim
+external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-pdb> <http://bio2rdf.org/pdb
+external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-ncbigene> <http://bio2rdf.org/ncbigene
+external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-pdb> <http://bio2rdf.org/pdb:PDB
+
+# internal: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:organism> <http://bio2rdf.org/kegg
+# external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-gi> <http://bio2rdf.org/gi
+# external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-pfam> <http://bio2rdf.org/pfam
+# external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-pfam> <http://bio2rdf.org/pfam:Pfam
+# external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-hprd> <http://bio2rdf.org/hprd
+# external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-ensembl> <http://bio2rdf.org/ensembl
+# external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-vega> <http://bio2rdf.org/vega
+# external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-mirbase> <http://bio2rdf.org/mirbase
+# external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-imgt> <http://bio2rdf.org/imgt
+
+============### kegg genome ============================
+
+internal: -> <http://bio2rdf.org/kegg:T00001> <http://bio2rdf.org/kegg_vocabulary:taxonomy> <http://bio2rdf.org/kegg:taxonomy:71421>
+internal: -> <http://bio2rdf.org/kegg:T00001> <http://bio2rdf.org/kegg_vocabulary:disease> <http://bio2rdf.org/kegg:H00304>
+
+# internal: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:reference> <http://bio2rdf.org/kegg_resource
+# internal: -> <http://bio2rdf.org/kegg <http://www.w3.org/2002/07/owl#sameAs> <http://bio2rdf.org/kegg
+# external: -> <http://bio2rdf.org/kegg_resource <http://bio2rdf.org/kegg_vocabulary:x-pubmed> <http://bio2rdf.org/pubmed 
+
+
+==================### kegg gylan =====================
+?? internal: -> <http://bio2rdf.org/kegg:G00001> <http://bio2rdf.org/kegg_vocabulary:orthology> <http://bio2rdf.org/kegg:K01001>
+?? internal: -> <http://bio2rdf.org/kegg:G00001> <http://bio2rdf.org/kegg_vocabulary:enzyme> <http://bio2rdf.org/kegg:2.4.1.141>
+internal: -> <http://bio2rdf.org/kegg:G00001> <http://bio2rdf.org/kegg_vocabulary:same-as> <http://bio2rdf.org/kegg:C04500>
+?? internal: -> <http://bio2rdf.org/kegg:G00001> <http://bio2rdf.org/kegg_vocabulary:pathway> <http://bio2rdf.org/kegg:map00510>
+?? internal: -><http://bio2rdf.org/kegg:G00001> <http://bio2rdf.org/kegg_vocabulary:module> <http://bio2rdf.org/kegg:M00055>
+
+# internal: -> <http://bio2rdf.org/kegg:G00001> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.kegg.jp/dbget-bin/www_bget?G00001>
+# external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-ccsd> <http://bio2rdf.org/ccsd
+# external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-lipidbank> <http://bio2rdf.org/lipidbank
+# external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-glycomedb> <http://bio2rdf.org/glycomedb
+# external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-jcggdb> <http://bio2rdf.org/jcggdb
+
+
+===================### kegg ko==========================
+?? internal: -> <http://bio2rdf.org/kegg:K00001> <http://bio2rdf.org/kegg_vocabulary:gene> <http://bio2rdf.org/kegg:DME_Dmel_CG3481> 不是HSA
+internal: -> <http://bio2rdf.org/kegg:K00006> <http://bio2rdf.org/kegg_vocabulary:disease> <http://bio2rdf.org/kegg:H00728>
+?? internal: -> <http://bio2rdf.org/kegg:K00002> <http://bio2rdf.org/kegg_vocabulary:module> <http://bio2rdf.org/kegg:M00014>
+?? internal: -> <http://bio2rdf.org/kegg:K00001> <http://bio2rdf.org/kegg_vocabulary:pathway> <http://bio2rdf.org/kegg:map00010>
+?? external: -> <http://bio2rdf.org/kegg:K00001> <http://bio2rdf.org/kegg_vocabulary:x-kegg> <http://bio2rdf.org/kegg:R00623>
+external: -> <http://bio2rdf.org/kegg:K00093> <http://bio2rdf.org/kegg_vocabulary:x-uniprot> <http://bio2rdf.org/uniprot:P31005>
+external: -> <http://bio2rdf.org/kegg:K00001> <http://bio2rdf.org/kegg_vocabulary:x-go> <http://bio2rdf.org/go:0004022>
+
+# internal: -> <http://bio2rdf.org/kegg:K00004> <http://bio2rdf.org/kegg_vocabulary:reference> <http://bio2rdf.org/kegg_resource:K00004.ref.1>
+# external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-tc> <http://bio2rdf.org/tcdb
+# external: -> <http://bio2rdf.org/kegg_resource <http://bio2rdf.org/kegg_vocabulary:x-pubmed> <http://bio2rdf.org/pubmed
+# external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-ec> <http://bio2rdf.org/ec
+# external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-ec> <http://bio2rdf.org/obi
+# external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-cazy> <http://bio2rdf.org/cazy
+
+========kegg module=============
+# internal: -> <http://bio2rdf.org/kegg:M00001> <http://bio2rdf.org/kegg_vocabulary:orthology> <http://bio2rdf.org/kegg:R01786>
+internal: -> <http://bio2rdf.org/kegg:M00001> <http://bio2rdf.org/kegg_vocabulary:reaction> <http://bio2rdf.org/kegg:R01786>
+internal: -> <http://bio2rdf.org/kegg:M00001> <http://bio2rdf.org/kegg_vocabulary:pathway> <http://bio2rdf.org/kegg:map01200>
+internal: -> <http://bio2rdf.org/kegg:M00001> <http://bio2rdf.org/kegg_vocabulary:compound> <http://bio2rdf.org/kegg:C00267>
+
+# internal: -> <http://bio2rdf.org/kegg:M00046> <http://bio2rdf.org/kegg_vocabulary:reference> <http://bio2rdf.org/kegg_resource:M00046.ref.1>
+# internal: -> <http://bio2rdf.org/kegg:M00001> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.kegg.jp/dbget-bin/www_bget?M00001>
+# external: -> <http://bio2rdf.org/kegg_resource <http://bio2rdf.org/kegg_vocabulary:x-pubmed> <http://bio2rdf.org/pubmed
+# external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-bsid> <http://bio2rdf.org/biosystems
+
+=============kegg pathway ==============
+internal: -> <http://bio2rdf.org/kegg:map00010> <http://bio2rdf.org/kegg_vocabulary:pathway_map> <http://bio2rdf.org/kegg:map00010>
+internal: -> <http://bio2rdf.org/kegg:map00010> <http://bio2rdf.org/kegg_vocabulary:ko_pathway> <http://bio2rdf.org/kegg:ko00010>
+internal: -> <http://bio2rdf.org/kegg:map00010> <http://bio2rdf.org/kegg_vocabulary:disease> <http://bio2rdf.org/kegg:H00069>
+internal: -> <http://bio2rdf.org/kegg:map00010> <http://bio2rdf.org/kegg_vocabulary:module> <http://bio2rdf.org/kegg:M00001>
+internal: -> <http://bio2rdf.org/kegg:map07011> <http://bio2rdf.org/kegg_vocabulary:compound> <http://bio2rdf.org/kegg:C02954>
+
+# internal: -> <http://bio2rdf.org/kegg:map00010> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.kegg.jp/dbget-bin/www_bget?map00010>
+# internal: -> <http://bio2rdf.org/kegg:map00010> <http://bio2rdf.org/kegg_vocabulary:reference> <http://bio2rdf.org/kegg_resource:map00010.ref.1>
+# external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-tc> <http://bio2rdf.org/tcdb
+# external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-go> <http://bio2rdf.org/go
+# external: -> <http://bio2rdf.org/kegg <http://bio2rdf.org/kegg_vocabulary:x-umbbd> <http://bio2rdf.org/umbbd
+# external: -> <http://bio2rdf.org/kegg_resource <http://bio2rdf.org/kegg_vocabulary:x-pubmed> <http://bio2rdf.org/pubmed
+
+======================kegg rclass======================
+
+?? internal: -> <http://bio2rdf.org/kegg:RC00001> <http://bio2rdf.org/kegg_vocabulary:orthology> <http://bio2rdf.org/kegg:K00032>
+?? internal: -> <http://bio2rdf.org/kegg:RC00001> <http://bio2rdf.org/kegg_vocabulary:enzyme> <http://bio2rdf.org/kegg:1.1.1.43>
+?? internal: -> <http://bio2rdf.org/kegg:RC00001> <http://bio2rdf.org/kegg_vocabulary:reaction> <http://bio2rdf.org/kegg:R00090>
+?? internal: -> <http://bio2rdf.org/kegg:RC00001> <http://bio2rdf.org/kegg_vocabulary:rpair> <http://bio2rdf.org/kegg:RP00001>
+?? internal: -> <http://bio2rdf.org/kegg:RC00001> <http://bio2rdf.org/kegg_vocabulary:pathway> <http://bio2rdf.org/kegg:map00480>
+
+=======================diseasesome=======================
+?? internal: -> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/diseaseSubtypeOf> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases
+internal: -> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/chromosomalLocation> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/chromosomalLocation
+internal: -> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/associatedGene> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/genes
+?? internal: -> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/class> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseaseClass
+external: -> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/possibleDrug> <http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs
+external: -> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/possibleDrug> <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs
+
+external: -> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/omim> <http://bio2rdf.org
+external: -> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases <http://www.w3.org/2002/07/owl#sameAs> <http://www.dbpedia.org/resource
+external: -> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases <http://www.w3.org/2002/07/owl#sameAs> <http://www4.wiwiss.fu-berlin.de/sider/resource/side_effects
+external: -> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/genes <http://www.w3.org/2002/07/owl#sameAs> <http://www.dbpedia.org/resource
+external: -> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/genes <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/hgncId> <http://bio2rdf.org
+
+# external: -> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/genes <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/geneId> <http://bio2rdf.org/geneid:36>
+# external: -> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/omimPage> <http://www.ncbi.nlm.nih.gov/entrez
+# external: -> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases <http://www.w3.org/2002/07/owl#sameAs> <http://purl.org/net/tcm/tcm.lifescience.ntu.edu.tw/id/disease
+# external: -> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome <http://www.w3.org/2002/07/owl#equivalentProperty> <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank
+# external: -> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/genes <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/bio2rdfSymbol> <http://symbol.bio2rdf.org
+# external: -> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/genes <http://www.w3.org/2002/07/owl#sameAs> <http://purl.org/net/tcm/tcm.lifescience.ntu.edu.tw/id/gene
+# external: -> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/genes <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/hgncIdPage> <http://www.genenames.org/data
+# external: -> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases <http://www.w3.org/2002/07/owl#sameAs> <http://data.linkedct.org/resource/condition
+# external: -> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome <http://www.w3.org/2002/07/owl#equivalentProperty> <http://dbpedia.org/ontology
+
+
+================pharmgkb relation===================
+
+internal: -> <http://bio2rdf.org/pharmgkb_vocabulary:gene-drug-Association>, <http://bio2rdf.org/pharmgkb:PA134906408> <http://bio2rdf.org/pharmgkb_vocabulary:drug> <http://bio2rdf.org/pharmgkb:PA449014>
+internal: -> <http://bio2rdf.org/pharmgkb_vocabulary:disease-variantlocation-Association>, <http://bio2rdf.org/pharmgkb:PA447321> <http://bio2rdf.org/pharmgkb_vocabulary:variantlocation> <http://bio2rdf.org/pharmgkb:PA124%3A1183698907> 
+internal: -> <http://bio2rdf.org/pharmgkb_vocabulary:drug-variantlocation-Association>, <http://bio2rdf.org/pharmgkb:PA448771> <http://bio2rdf.org/pharmgkb_vocabulary:variantlocation> <http://bio2rdf.org/dbsnp:rs2978926>
+internal: -> <http://bio2rdf.org/pharmgkb_vocabulary:variantlocation-drug-Association>, <http://bio2rdf.org/dbsnp:rs2978926> <http://bio2rdf.org/pharmgkb_vocabulary:drug> <http://bio2rdf.org/pharmgkb:PA448771> 
+internal: -> <http://bio2rdf.org/pharmgkb_vocabulary:drug-gene-Association>, <http://bio2rdf.org/pharmgkb:PA449014> <http://bio2rdf.org/pharmgkb_vocabulary:gene> <http://bio2rdf.org/pharmgkb:PA134906408>
+internal: -> <http://bio2rdf.org/pharmgkb_vocabulary:drug-haplotype-Association>, <http://bio2rdf.org/pharmgkb:PA452621> <http://bio2rdf.org/pharmgkb_vocabulary:haplotype> <http://bio2rdf.org/pharmgkb:PA165948092> 
+internal: -> <http://bio2rdf.org/pharmgkb_vocabulary:haplotype-disease-Association>, <http://bio2rdf.org/dbsnp:rs2978926> <http://bio2rdf.org/pharmgkb_vocabulary:disease> <http://bio2rdf.org/pharmgkb:PA446108> 
+internal: -> <http://bio2rdf.org/pharmgkb_vocabulary:gene-disease-Association>, <http://bio2rdf.org/pharmgkb:PA134906408> <http://bio2rdf.org/pharmgkb_vocabulary:disease> <http://bio2rdf.org/pharmgkb:PA445062> 
+
+<http://bio2rdf.org/pharmgkb_vocabulary:disease-disease-Association>
+<http://bio2rdf.org/pharmgkb_vocabulary:drug-drug-Association>
+<http://bio2rdf.org/pharmgkb_vocabulary:gene-gene-Association>
+
+# internal: -> <http://bio2rdf.org/pharmgkb_resource:69267> <http://bio2rdf.org/pharmgkb_vocabulary:article> <pubmed:http://sfx.stanford.edu/local?sid=Entrez:PubMed&id=pmid:23470885>
+# internal: -> <http://bio2rdf.org/pharmgkb_resource:82578> <http://bio2rdf.org/pharmgkb_vocabulary:annotation-type> <http://bio2rdf.org/pharmgkb_vocabulary:VariantAnnotation> 
+# internal: -> <http://bio2rdf.org/pharmgkb_resource:82578> <http://bio2rdf.org/pharmgkb_vocabulary:association> <http://bio2rdf.org/pharmgkb_vocabulary:not-associated> 
+# internal: -> <http://bio2rdf.org/pharmgkb_resource:82578> <http://bio2rdf.org/pharmgkb_vocabulary:article> <http://bio2rdf.org/pubmed:26222057>
+# internal: -> <http://bio2rdf.org/pharmgkb_resource:75996> <http://bio2rdf.org/pharmgkb_vocabulary:article> <http://bio2rdf.org/pubmed::17522595> 
+
+===========drugbank===============
+meaningful internal: -> <http://bio2rdf.org/drugbank:DB00001> <http://bio2rdf.org/drugbank_vocabulary:target> <http://bio2rdf.org/drugbank:BE0000048>
+meaningful internal: -> <http://bio2rdf.org/drugbank:DB01381> <http://bio2rdf.org/drugbank_vocabulary:ddi-interactor-in> <http://bio2rdf.org/drugbank_resource:DB00001_DB01381>
+meaningful internal: -> <http://bio2rdf.org/drugbank:DB00006> <http://bio2rdf.org/drugbank_vocabulary:food-interaction> <http://bio2rdf.org/drugbank_resource:68b132d1e633aa3a3e51e76e3e54848e>
+meaningful internal: -> <http://bio2rdf.org/drugbank:DB00006> <http://bio2rdf.org/drugbank_vocabulary:protein-binding> <http://bio2rdf.org/drugbank_resource:dab02b0ccef00816f9af7e355c9a6ece>
+meaningful internal: -> <http://bio2rdf.org/drugbank:DB00004> <http://bio2rdf.org/drugbank_vocabulary:substructure> <http://bio2rdf.org/drugbank_resource:4bfb8481950462046174458c1588a59c>
+meaningful internal: -> <http://bio2rdf.org/drugbank:DB00001> <http://bio2rdf.org/drugbank_vocabulary:category> <http://bio2rdf.org/drugbank_vocabulary:Antithrombins>
+
+
+external: -> <http://bio2rdf.org/drugbank:DB00001> <http://bio2rdf.org/drugbank_vocabulary:x-kegg> <http://bio2rdf.org/kegg:D06880>
+external: -> <http://bio2rdf.org/drugbank:DB00114> <http://bio2rdf.org/drugbank_vocabulary:x-pubchemsubstance> <http://bio2rdf.org/pubchem.substance:46506428>
+external: -> <http://bio2rdf.org/drugbank:DB00007> <http://bio2rdf.org/drugbank_vocabulary:x-chebi> <http://bio2rdf.org/chebi:6427>
+external: -> <http://bio2rdf.org/drugbank:DB00114> <http://bio2rdf.org/drugbank_vocabulary:x-pubchemcompound> <http://bio2rdf.org/pubchem.compound:1051>
+external: -> <http://bio2rdf.org/drugbank:DB00114> <http://bio2rdf.org/drugbank_vocabulary:x-pdb> <http://bio2rdf.org/pdb:PLP>
+external: -> <http://bio2rdf.org/drugbank:DB00001> <http://bio2rdf.org/drugbank_vocabulary:x-atc> <http://bio2rdf.org/atc:B01AE02>
+external: -> <http://bio2rdf.org/drugbank:DB00001> <http://bio2rdf.org/drugbank_vocabulary:x-pharmgkb> <http://bio2rdf.org/pharmgkb:PA450195>
+external: -> <http://bio2rdf.org/drugbank:BE0000048> <http://bio2rdf.org/drugbank_vocabulary:x-uniprot> <http://bio2rdf.org/uniprot:P00734>
+external: -> <http://bio2rdf.org/drugbank:BE0000048> <http://bio2rdf.org/drugbank_vocabulary:x-hgnc> <http://bio2rdf.org/hgnc:H3535>
+external: -> <http://bio2rdf.org/drugbank:BE0000048> <http://bio2rdf.org/drugbank_vocabulary:x-genbank> <http://bio2rdf.org/genbank:M17262>
+external: -> <http://bio2rdf.org/drugbank:BE0000048> <http://bio2rdf.org/drugbank_vocabulary:x-genatlas> <http://bio2rdf.org/genatlas:F2>
+
+# internal: -> <http://bio2rdf.org/drugbank_resource:experimental-properties-DB00002-1> <http://bio2rdf.org/drugbank_vocabulary:source> <http://bio2rdf.org/drugbank_resource:22b41fe3e89493aa212ff1166d0a9104>
+# internal: -> <http://bio2rdf.org/drugbank:DB00003> <http://bio2rdf.org/drugbank_vocabulary:mixture> <http://bio2rdf.org/drugbank_resource:Cauterex>
+# internal: -> <http://bio2rdf.org/drugbank_resource:Cauterex> <http://bio2rdf.org/drugbank_vocabulary:ingredient> <http://bio2rdf.org/drugbank_resource:dornase-alfa>
+# internal: -> <http://bio2rdf.org/drugbank:DB00070> <http://bio2rdf.org/drugbank_vocabulary:carrier> <http://bio2rdf.org/drugbank:BE0000530>
+## single internal: -> <http://bio2rdf.org/drugbank:DB00007> <http://bio2rdf.org/drugbank_vocabulary:salt> <http://bio2rdf.org/drugbank_resource:6def010f88032649a051aa12a0f5611c>
+# internal: -> <http://bio2rdf.org/drugbank:DB00001> <http://bio2rdf.org/drugbank_vocabulary:clearance> <http://bio2rdf.org/drugbank_resource:5fbb4f37de38dd96b4bc5a493ba80c43>
+# internal: -> <http://bio2rdf.org/drugbank:DB00001> <http://bio2rdf.org/drugbank_vocabulary:manufacturer> <http://bio2rdf.org/drugbank_resource:e12afb0bd3360355b845f42cd59876cf>
+# internal: -> <http://bio2rdf.org/drugbank:DB00003> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.drugbank.ca/drugs/DB00003>
+# single internal: -> <http://bio2rdf.org/drugbank:DB00001> <http://bio2rdf.org/drugbank_vocabulary:experimental-properties> <http://bio2rdf.org/drugbank_resource:experimental-properties-DB00001-1>
+# meaningful internal: -> <http://bio2rdf.org/drugbank:DB00001> <http://bio2rdf.org/drugbank_vocabulary:type> <http://bio2rdf.org/drugbank_vocabulary:Biotech>
+# single internal: -> <http://bio2rdf.org/drugbank:DB00014> <http://bio2rdf.org/drugbank_vocabulary:calculated-properties> <http://bio2rdf.org/drugbank_resource:calculated-properties-DB00014-3>
+# meaningful internal: -> <http://bio2rdf.org/drugbank_vocabulary:a80a94b1018bdd235ce6656c7a4a1ca6> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bio2rdf.org/drugbank_vocabulary:Form>
+# meaningful internal: -> <http://bio2rdf.org/drugbank_resource:DB00001_BE0000048> <http://bio2rdf.org/drugbank_vocabulary:reference> <http://bio2rdf.org/pubmed:10505536>
+## meaningful internal: -> <http://bio2rdf.org/drugbank:DB00001> <http://bio2rdf.org/drugbank_vocabulary:volume-of-distribution> <http://bio2rdf.org/drugbank_resource:5bffcb7818d2066c399c8c2b365ffca0>
+## meaningful internal: -> <http://bio2rdf.org/drugbank:DB00001> <http://bio2rdf.org/drugbank_vocabulary:group> <http://bio2rdf.org/drugbank_vocabulary:Approved>
+## meaningful internal: -> <http://bio2rdf.org/drugbank:DB00001> <http://bio2rdf.org/drugbank_vocabulary:patent> <http://bio2rdf.org/uspto:5180668>
+## meaningful internal: -> <http://bio2rdf.org/uspto:5180668> <http://bio2rdf.org/drugbank_vocabulary:country> <http://bio2rdf.org/drugbank_resource:f253efe302d32ab264a76e0ce65be769>
+## meaningful internal: -> <http://bio2rdf.org/drugbank:DB00001> <http://bio2rdf.org/drugbank_vocabulary:affected-organism> <http://bio2rdf.org/drugbank_vocabulary:Humans-and-other-mammals>
+## single internal: -> <http://bio2rdf.org/drugbank:DB00049> <http://www.w3.org/2002/07/owl#sameAs> <http://identifiers.org/drugbank/DB00049>
+## meaningful internal: -> <http://bio2rdf.org/drugbank:DB00001> <http://bio2rdf.org/drugbank_vocabulary:brand> <http://bio2rdf.org/drugbank_vocabulary:Refludan> 
+## meaningful internal: -> <http://bio2rdf.org/drugbank:DB00001> <http://bio2rdf.org/drugbank_vocabulary:half-life> <http://bio2rdf.org/drugbank_resource:bac0f73968419523c559f2f304f99085>
+## meaningful internal: -> <http://bio2rdf.org/drugbank:DB00001> <http://bio2rdf.org/drugbank_vocabulary:absorption> <http://bio2rdf.org/drugbank_resource:181c7685ad205c06870782f6812f16ee> 
+## meaningful internal: -> <http://bio2rdf.org/drugbank:DB00001> <http://bio2rdf.org/drugbank_vocabulary:product> <http://bio2rdf.org/drugbank_resource:172d9ce8065ac96f019189b12bde6767>
+## meaningful internal: -> <http://bio2rdf.org/drugbank_resource:DB00001_BE0000048> <http://bio2rdf.org/drugbank_vocabulary:drug> <http://bio2rdf.org/drugbank:DB00001>
+## meaningful internal: -> <http://bio2rdf.org/drugbank:DB00001> <http://bio2rdf.org/drugbank_vocabulary:dosage> <http://bio2rdf.org/drugbank_resource:13e8d5e28fb251ec51bdad66d6544621>
+## meaningful internal: -> <http://bio2rdf.org/drugbank_resource:172d9ce8065ac96f019189b12bde6767> <http://bio2rdf.org/drugbank_vocabulary:form> <http://bio2rdf.org/drugbank_vocabulary:808e7e17f24f9300e417160cb16993d4>
+# meaningful internal: -> <http://bio2rdf.org/drugbank:DB00004> <http://bio2rdf.org/drugbank_vocabulary:kingdom> <http://bio2rdf.org/drugbank_resource:7b291551dc64b95a2c0e172d009384fc>
+# meaningful internal: -> <http://bio2rdf.org/drugbank:DB00005> <http://bio2rdf.org/drugbank_vocabulary:enzyme> <http://bio2rdf.org/drugbank:BE0000262>
+# meaningful internal: -> <http://bio2rdf.org/drugbank:DB00001> <http://bio2rdf.org/drugbank_vocabulary:pharmacology> <http://bio2rdf.org/drugbank_resource:e1cdb0945291518eb19d1bf949d8e199>
+# meaningful internal: -> <http://bio2rdf.org/drugbank:DB00027> <http://bio2rdf.org/drugbank_vocabulary:transporter> <http://bio2rdf.org/drugbank:BE0001032>
+# meaningful internal: -> <http://bio2rdf.org/drugbank:DB00001> <http://bio2rdf.org/drugbank_vocabulary:toxicity> <http://bio2rdf.org/drugbank_resource:c8d835e69a571598174942b76bdd718b>
+# meaningful internal: -><http://bio2rdf.org/drugbank:DB00001> <http://bio2rdf.org/drugbank_vocabulary:packager> <http://bio2rdf.org/drugbank_resource:baa0075ca19e190f1ade297760ab9076>
+# meaningful internal: -> <http://bio2rdf.org/drugbank_resource:4b5c0bb3f1d90576a038a3f972025295> <http://bio2rdf.org/drugbank_vocabulary:route> <http://bio2rdf.org/drugbank_vocabulary:361ee98c3d82f85e8095179351912761>
+# meaningful internal: -> <http://bio2rdf.org/drugbank_resource:DB00001_BE0000048> <http://bio2rdf.org/drugbank_vocabulary:action> <http://bio2rdf.org/drugbank_vocabulary:inhibitor>
+# meaningful internal: -> <http://bio2rdf.org/drugbank:DB00001> <http://bio2rdf.org/drugbank_vocabulary:mechanism-of-action> <http://bio2rdf.org/drugbank_resource:78367877e3152b1b2a9c9c96e2630cd6>
+# meaningful internal: -> <http://bio2rdf.org/drugbank:DB00001> <http://bio2rdf.org/drugbank_vocabulary:indication> <http://bio2rdf.org/drugbank_resource:2c12de5ab49848a68d96f272e45c15a5>
+# meaningful internal: -> <http://bio2rdf.org/drugbank:DB00001> <http://bio2rdf.org/drugbank_vocabulary:route-of-elimination> <http://bio2rdf.org/drugbank_resource:828b29bff442579f8c0b5b4bb47b0905>
+# meaningful internal: -> <http://bio2rdf.org/drugbank:DB00001> <http://bio2rdf.org/drugbank_vocabulary:biotransformation> <http://bio2rdf.org/drugbank_resource:b049995b546cae346fe6729e6feca81f>
+# meaningful internal: -> <http://bio2rdf.org/drugbank:DB00001> <http://bio2rdf.org/drugbank_vocabulary:synonym> <http://bio2rdf.org/drugbank_vocabulary:Hirudin-variant-1>
+# external: -> <http://bio2rdf.org/drugbank:DB00106> <http://bio2rdf.org/drugbank_vocabulary:x-gtp> <http://bio2rdf.org/gtp:1188>
+# external: -> <http://bio2rdf.org/drugbank:DB00001> <http://bio2rdf.org/drugbank_vocabulary:x-wikipedia> <http://bio2rdf.org/wikipedia:Lepirudin>
+# external: -> <http://bio2rdf.org/drugbank:BE0000048> <http://bio2rdf.org/drugbank_vocabulary:x-gi> <http://bio2rdf.org/gi:339641>
+# external: -> <http://bio2rdf.org/drugbank:DB00106> <http://bio2rdf.org/drugbank_vocabulary:x-iuphar> <http://bio2rdf.org/iuphar:1188>
+# external: -> <http://bio2rdf.org/drugbank:BE0000048> <http://bio2rdf.org/drugbank_vocabulary:x-genecards> <http://bio2rdf.org/genecards:F2>
+# external: -> <http://bio2rdf.org/drugbank:DB00001> <http://bio2rdf.org/drugbank_vocabulary:x-ahfs> <http://bio2rdf.org/ahfs:20:12.04.12>
+
+# external: -> <http://bio2rdf.org/drugbank:DB00001> <http://bio2rdf.org/drugbank_vocabulary:x-ndc> <http://bio2rdf.org/ndc:50419-150-57>
+# external: -> <http://bio2rdf.org/drugbank:DB00114> <http://bio2rdf.org/drugbank_vocabulary:x-chemspider> <http://bio2rdf.org/chemspider:1022>
+# external: -> <http://bio2rdf.org/drugbank:DB00001> <http://bio2rdf.org/drugbank_vocabulary:x-dpd> <http://bio2rdf.org/dpd:2240996>
+# external: -> <http://bio2rdf.org/drugbank:DB00104> <http://bio2rdf.org/drugbank_vocabulary:x-bindingdb> <http://bio2rdf.org/bindingdb:50175592>
+
+
+===================omim=================
+不同/如何取舍（没有重叠）
+single internal: -> <http://bio2rdf.org/omim:100100> <http://bio2rdf.org/omim_vocabulary:phenotype-map> <http://bio2rdf.org/omim_resource:100100_pm_1>
+meaningful internal: -> <http://bio2rdf.org/omim_resource:100100_pm_1> <http://bio2rdf.org/omim_vocabulary:geneSymbols> <http://bio2rdf.org/hgnc.symbol:CHRM3>
+meaningful internal: -> <http://bio2rdf.org/omim:100070> <http://bio2rdf.org/omim_vocabulary:gene-symbol> <http://bio2rdf.org/hgnc.symbol:AAA1>
+
+
+single internal: -> <http://bio2rdf.org/omim:100050> <http://bio2rdf.org/omim_vocabulary:clinical-synopsis> <http://bio2rdf.org/omim_resource:100050_cs>
+meaningful internal: -> <http://bio2rdf.org/omim_resource:100050_cs> <http://bio2rdf.org/omim_vocabulary:feature> <http://bio2rdf.org/omim_resource:13913bc11fb724b3199858a81020af0c>
+
+external: -> <http://bio2rdf.org/omim_resource:2a8b9baf22ef3ccfe7eb3d643adc3b6f> <http://bio2rdf.org/omim_vocabulary:x-omim> <http://bio2rdf.org/omim:118494>
+external: -> <http://bio2rdf.org/omim_resource:ffe2638260c8f14cc95cb8023edc3d0f> <http://bio2rdf.org/omim_vocabulary:x-umls> <http://bio2rdf.org/umls:C1855201>
+external: -> <http://bio2rdf.org/omim_resource:5c6d8710ac8c28608a32cf679ea93fae> <http://bio2rdf.org/omim_vocabulary:x-snomed> <http://bio2rdf.org/snomedct:29696001>
+
+external: -> <http://bio2rdf.org/omim:100070> <http://bio2rdf.org/omim_vocabulary:x-uniprot> <http://bio2rdf.org/uniprot:P02461>
+external: -> <http://bio2rdf.org/omim:100070> <http://bio2rdf.org/omim_vocabulary:x-ncbigene> <http://bio2rdf.org/ncbigene:100329167>
+external: -> <http://bio2rdf.org/omim:100640> <http://bio2rdf.org/omim_vocabulary:x-symbol> <http://bio2rdf.org/hgnc.symbol:ALDH1A1>
+
+
+# meaningful internal: -> <http://bio2rdf.org/omim_resource:13913bc11fb724b3199858a81020af0c> <http://bio2rdf.org/omim_vocabulary:characteristic-of> <http://bio2rdf.org/omim_resource:Growth>
+
+
+# single internal: -> <http://bio2rdf.org/omim:100650> <http://bio2rdf.org/omim_vocabulary:variant> <http://bio2rdf.org/omim_resource:100650_allele_0>
+# meaningful internal: -> <http://bio2rdf.org/omim:100050> <http://bio2rdf.org/omim_vocabulary:article> <http://bio2rdf.org/pubmed:6344635>
+# single internal: -> <http://bio2rdf.org/omim:100050> <http://www.w3.org/2002/07/owl#sameAs> <http://identifiers.org/omim/100050> 
+# meaningful internal: -> <http://bio2rdf.org/omim:100640> <http://bio2rdf.org/omim_vocabulary:mouse-gene-symbol> <http://bio2rdf.org/hgnc.symbol:ALDH1A1>
+# meaningful internal: -> <http://bio2rdf.org/omim:100070> <http://bio2rdf.org/omim_vocabulary:mapping-method> <http://bio2rdf.org/omim_vocabulary:Fd>
+# meaningful internal: -> <http://bio2rdf.org/omim:100200> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://omim.org/entry/100200> 
+# meaningful internal: -> <http://bio2rdf.org/omim_resource:100100_pm_1> <http://bio2rdf.org/omim_vocabulary:mimNumber> <http://bio2rdf.org/omim:118494>
+# meaningful internal: -> <http://bio2rdf.org/omim_resource:100300_pm_1> <http://bio2rdf.org/omim_vocabulary:phenotypicSeriesMimNumber> <http://bio2rdf.org/omim:100300>
+# meaningful internal: -> <http://bio2rdf.org/omim_resource:100100_pm_1> <http://bio2rdf.org/omim_vocabulary:phenotypeMimNumber> <http://bio2rdf.org/omim:100100>
+# meaningful internal: -> <http://bio2rdf.org/omim:100050> <http://bio2rdf.org/omim_vocabulary:refers-to> <http://bio2rdf.org/omim:227330>
+
+
+# external: -> <http://bio2rdf.org/omim:100050> <http://bio2rdf.org/omim_vocabulary:x-orphanet> <http://bio2rdf.org/orphanet:915>
+# external: -> <http://bio2rdf.org/omim:100650> <http://bio2rdf.org/omim_vocabulary:x-zfin> <http://bio2rdf.org/zfin:ZDB-GENE-030326-5>
+# external: -> <http://bio2rdf.org/omim_resource:94516e871cb8fac56daeb9fd4e7860a6> <http://bio2rdf.org/omim_vocabulary:x-icd10> <http://bio2rdf.org/icd10:M26.02>
+# external: -> <http://bio2rdf.org/omim:100640> <http://bio2rdf.org/omim_vocabulary:x-refseq> <http://bio2rdf.org/refseq:NG_012249.1>
+# external: -> <http://bio2rdf.org/omim_resource:100650_allele_0> <http://bio2rdf.org/omim_vocabulary:x-dbsnp> <http://bio2rdf.org/dbsnp:rs671>
+# external: -> <http://bio2rdf.org/omim:100640> <http://bio2rdf.org/omim_vocabulary:x-hprd> <http://bio2rdf.org/hprd:00001>
+# external: -> <http://bio2rdf.org/omim:100640> <http://bio2rdf.org/omim_vocabulary:x-ensembl> <http://bio2rdf.org/ensembl:ENSG00000165092>
+# external: -> <http://bio2rdf.org/omim_resource:05a777599f13015ea08b1540e341a75a> <http://bio2rdf.org/omim_vocabulary:x-hp> <http://bio2rdf.org/hp:0000349>
+
+# external: -> <http://bio2rdf.org/omim:100050> <http://bio2rdf.org/omim_vocabulary:x-do> <http://bio2rdf.org/do:6683>
+# external: -> <http://bio2rdf.org/omim:100640> <http://bio2rdf.org/omim_vocabulary:x-mgi> <http://bio2rdf.org/mgi:1353450>
+# external: -> <http://bio2rdf.org/omim_resource:5c6d8710ac8c28608a32cf679ea93fae> <http://bio2rdf.org/omim_vocabulary:x-eom> <http://bio2rdf.org/eom:1bd157b764ec7aea>
+# external: -> <http://bio2rdf.org/omim_resource:94516e871cb8fac56daeb9fd4e7860a6> <http://bio2rdf.org/omim_vocabulary:x-icd9> <http://bio2rdf.org/icd9:524.03>
+# external: -> <http://bio2rdf.org/omim_resource:5c6d8710ac8c28608a32cf679ea93fae> <http://bio2rdf.org/omim_vocabulary:x-img> <http://bio2rdf.org/img:Ptosis-small.jpg>
+# external: -> <http://bio2rdf.org/omim:100070> <http://bio2rdf.org/omim_vocabulary:x-ordr> <http://bio2rdf.org/ordr:9181>
+# external: -> <http://bio2rdf.org/omim:100640> <http://bio2rdf.org/omim_vocabulary:x-gi> <http://bio2rdf.org/gi:327365354>
+
+
+==========================offside (sideeffect)======================================
+meaningful internal: -> <http://bio2rdf.org/offsides:1> <http://bio2rdf.org/pharmgkb_vocabulary:event> <http://bio2rdf.org/umls:C0000737>
+meaningful internal: -> <http://bio2rdf.org/offsides:1> <http://bio2rdf.org/pharmgkb_vocabulary:chemical> <http://bio2rdf.org/pubchem.compound:76>
+
+
+==========================linkspl========================
+meaningful internal: -> <http://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/resource/structuredProductLabelMetadata/bb81de7b-c542-495b-9278-bb8bbd6ff199> 
+<http://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/vocab/resource/subjectXref> <http://bio2rdf.org/drugbank:DB00909>
+
+meaningful internal: -> <http://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/resource/structuredProductLabelMetadata/fc4dfaf2-9ba5-4371-a703-085d4a5bfd75> 
+<http://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/vocab/resource/establishedPharmacologicClass> <http://purl.bioontology.org/ontology/NDFRT/N0000010282>
+
+single internal: -> <http://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/resource/structuredProductLabelMetadata/9b32f5a4-d0f7-486b-b699-8dc9202b6869> 
+<http://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/vocab/resource/pharmgxData> <http://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/resource/FDAPharmgxTable/1>
+
+meaningful internal: -> <http://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/resource/FDAPharmgxTable/1> <http://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/vocab/resource/HGNCGeneSymbol> <http://bio2rdf.org/hugo:HLA-B>
+meaningful internal: -> <http://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/resource/FDAPharmgxTable/1> <http://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/vocab/resource/pharmgxXref> <http://bio2rdf.org/pharmgkb:PA35056>
+
+meaningful internal: -> <http://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/resource/structuredProductLabelMetadata/0001eaa9-e890-4e94-9d44-47a0f3086a02> 
+<http://purl.org/dc/elements/1.1/subject> <http://purl.bioontology.org/ontology/RXNORM/251577>
+
+
+# meaningful internal: -> <http://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/resource/structuredProductLabelMetadata/a36eda9b-0e93-4a71-a06a-9442b6d0e4e1> <http://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/vocab/resource/routeOfAdministration> <http://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/resource/routeOfAdministration/TOPICAL>
+# meaningful internal: -> <http://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/resource/structuredProductLabelMetadata/a36eda9b-0e93-4a71-a06a-9442b6d0e4e1> <http://xmlns.com/foaf/0.1/homepage> <http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a36eda9b-0e93-4a71-a06a-9442b6d0e4e1>
+# meaningful internal: -> <http://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/resource/structuredProductLabelMetadata/79fdfc31-a9fb-4b79-95d9-a792f982bd14> <http://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/vocab/resource/activeMoietyRxCUI> <http://purl.bioontology.org/ontology/RXNORM/12166>
+#meaningful internal: -> <http://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/resource/FDAPharmgxTable/1> <http://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/vocab/resource/pharmgxSPLSection> <http://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/vocab/resource/boxedWarning>
+# meaningful internal: -> <http://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/resource/FDAPharmgxTable/1> <http://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/vocab/resource/therapeuticApplication> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Antiviral_Agent>
+# meaningful internal: -> <http://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/resource/FDAPharmgxTable/1> <http://www.w3.org/2002/07/owl#sameAs> <http://purl.obolibrary.org/obo/PR_000002010>
+
+
+=====================irefindex-all===============protein-protein interaction
+
+meaningful internal: -> <http://bio2rdf.org/bind:145157> <http://bio2rdf.org/irefindex_vocabulary:interactor_a> <http://bio2rdf.org/irefindex.rogid:iQFsAXlS2pi/XWHPlTr2gRZQlZg> 
+meaningful internal: -> <http://bio2rdf.org/bind:145157> <http://bio2rdf.org/irefindex_vocabulary:interactor_b> <http://bio2rdf.org/uniprot:P53622>
+						<http://bio2rdf.org/biogrid:655376> <http://bio2rdf.org/irefindex_vocabulary:interactor_b> 
+meaningful internal: -> <http://bio2rdf.org/bind:145157> <http://bio2rdf.org/irefindex_vocabulary:taxon-sequence-identical-interaction-group> <http://bio2rdf.org/irefindex.irigid:1450626>
+meaningful internal: -> <http://bio2rdf.org/cygd:YDL145C> <http://bio2rdf.org/irefindex_vocabulary:taxon-sequence-identical-group> <http://bio2rdf.org/irefindex.irogid:1450626>
+
+
+
+
+# meaningful internal: -> <http://bio2rdf.org/bind:111724> <http://bio2rdf.org/irefindex_vocabulary:method> <http://bio2rdf.org/mi:0114>
+# meaningful internal: -> <http://bio2rdf.org/bind:214294> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://wodaklab.org/iRefWeb/interaction/show/1450626>
+# meaningful internal: -> <http://bio2rdf.org/bind:145157> <http://bio2rdf.org/irefindex_vocabulary:source> <http://bio2rdf.org/mi:0462>
+# meaningful internal: -> <http://bio2rdf.org/bind:145157> <http://bio2rdf.org/irefindex_vocabulary:article> <http://bio2rdf.org/pubmed:10921873>
+
+# meaningful internal: -> <http://bio2rdf.org/bind:111724> <http://bio2rdf.org/irefindex_vocabulary:interactor_a_experimental_role> <http://bio2rdf.org/mi:0499>
+# meaningful internal: -> <http://bio2rdf.org/bind:111724> <http://bio2rdf.org/irefindex_vocabulary:interactor_b_experimental_role> <http://bio2rdf.org/mi:0499>
+# external: -> <http://bio2rdf.org/irefindex.irogid:16817415> <http://bio2rdf.org/irefindex_vocabulary:x-taxonomy> <http://bio2rdf.org/taxonomy:559292>
+# meaningful internal: -> <http://bio2rdf.org/biogrid:655376> <http://bio2rdf.org/irefindex_vocabulary:interactor_b_biological_role> <http://bio2rdf.org/mi:0499>
+# meaningful internal: -> <http://bio2rdf.org/biogrid:655376> <http://bio2rdf.org/irefindex_vocabulary:host-organism> <http://bio2rdf.org/taxonomy:32644>
+# meaningful internal: -> <http://bio2rdf.org/biogrid:655376> <http://bio2rdf.org/irefindex_vocabulary:interactor_a_biological_role> <http://bio2rdf.org/mi:0499>
+
+? meaningful internal: -> <http://bio2rdf.org/bind:145157> <http://bio2rdf.org/irefindex_vocabulary:taxon-sequence-similar-interaction-group> <http://bio2rdf.org/irefindex.crigid:1450626>
+? meaningful internal: -> <http://bio2rdf.org/cygd:YDL145C> <http://bio2rdf.org/irefindex_vocabulary:taxon-sequence-similar-group> <http://bio2rdf.org/irefindex.icrogid:16817415>
+
+
+
+
+
+
+
+====================sider dump================================
+internal: <http://www4.wiwiss.fu-berlin.de/sider/resource/drugs <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffect> <http://www4.wiwiss.fu-berlin.de/sider/resource/side_effects
+external: <http://www4.wiwiss.fu-berlin.de/sider/resource/side_effects <http://www.w3.org/2002/07/owl#sameAs> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases
+external: -> <http://www4.wiwiss.fu-berlin.de/sider/resource/drugs <http://www.w3.org/2002/07/owl#sameAs> <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs
+
+# internal: -> <http://www4.wiwiss.fu-berlin.de/sider/resource/side_effects <http://www.w3.org/2002/07/owl#sameAs> <http://www.dbpedia.org/resource
+# internal: -> <http://www4.wiwiss.fu-berlin.de/sider/resource/drugs <http://www.w3.org/2002/07/owl#sameAs> <http://www4.wiwiss.fu-berlin.de/stitch/resource/chemicals
+# internal: -> <http://www4.wiwiss.fu-berlin.de/sider/resource/drugs <http://www.w3.org/2002/07/owl#sameAs> <http://www.dbpedia.org/resource
+# internal: -> <http://www4.wiwiss.fu-berlin.de/sider/resource/side_effects <http://www.w3.org/2002/07/owl#sameAs> <http://purl.org/net/tcm/tcm.lifescience.ntu.edu.tw/id/disease
+# internal: -> <http://www4.wiwiss.fu-berlin.de/sider/resource/side_effects <http://xmlns.com/foaf/0.1/page> <http://sideeffects.embl.de/se
+# internal: -> <http://www4.wiwiss.fu-berlin.de/sider/resource/drugs <http://www.w3.org/2002/07/owl#sameAs> <http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs
+# internal: -> <http://www4.wiwiss.fu-berlin.de/sider/resource/drugs <http://xmlns.com/foaf/0.1/page> <http://stitch.embl.de/cgi
+# internal: -> <http://www4.wiwiss.fu-berlin.de/sider/resource/drugs <http://xmlns.com/foaf/0.1/page> <http://sideeffects.embl.de/drugs
+# internal: -> <http://www4.wiwiss.fu-berlin.de/sider/resource/drugs <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffect> <http://www4.wiwiss.fu-berlin.de/sider/resource/side_effects
+
+
+==================######## taxonomy==============================
+internal: -> <http://bio2rdf.org/taxonomy:1> <http://bio2rdf.org/taxonomy_vocabulary:rank> <http://bio2rdf.org/taxonomy_resource:no-rank>
+internal: -> <http://bio2rdf.org/taxonomy:1> <http://bio2rdf.org/taxonomy_vocabulary:embl-code> <http://bio2rdf.org/taxonomy_resource:>
+internal: -> <http://bio2rdf.org/taxonomy:2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bio2rdf.org/taxonomy:131567>
+internal: -> <http://bio2rdf.org/taxonomy:1> <http://bio2rdf.org/taxonomy_vocabulary:genetic-code-id> <http://bio2rdf.org/taxonomy_resource:genetic-code-id-1>
+internal: -> <http://bio2rdf.org/taxonomy:1> <http://bio2rdf.org/taxonomy_vocabulary:mitochondrial-genetic-code-id> <http://bio2rdf.org/taxonomy_resource:genetic-code-id-0>
+internal: -> <http://bio2rdf.org/taxonomy:1> <http://bio2rdf.org/taxonomy_vocabulary:division-id> <http://bio2rdf.org/taxonomy_resource:division-id-8>
+
+###########################################################################################################
+############################################################################################################
+##############################################################################################################
+
+========pharmgkb drug===============
+external: -> <http://bio2rdf.org/pharmgkb:PA10004> <http://bio2rdf.org/pharmgkb_vocabulary:x-uniprot> <http://bio2rdf.org/uniprot:P01857>
+
+external: -> <http://bio2rdf.org/pharmgkb:PA10090> <http://bio2rdf.org/pharmgkb_vocabulary:x-pdb> <http://bio2rdf.org/pdb:GLN>
+external: -> <http://bio2rdf.org/pharmgkb:PA1000> <http://bio2rdf.org/pharmgkb_vocabulary:x-drugbank> <http://bio2rdf.org/drugbank:DB00914>
+external: -> <http://bio2rdf.org/pharmgkb:PA1000> <http://bio2rdf.org/pharmgkb_vocabulary:x-atc> <http://bio2rdf.org/atc:A10BA>
+external: -> <http://bio2rdf.org/pharmgkb:PA1000> <http://bio2rdf.org/pharmgkb_vocabulary:x-pubchemcompound> <http://bio2rdf.org/pubchem.compound:8249>
+external: -> <http://bio2rdf.org/pharmgkb:PA10005> <http://bio2rdf.org/pharmgkb_vocabulary:x-kegg> <http://bio2rdf.org/kegg:D01655>
+external: -> <http://bio2rdf.org/pharmgkb:PA10015> <http://bio2rdf.org/pharmgkb_vocabulary:x-chebi> <http://bio2rdf.org/chebi:17549>
+external: -> <http://bio2rdf.org/pharmgkb:PA10004> <http://bio2rdf.org/pharmgkb_vocabulary:x-dailymed> <http://bio2rdf.org/dailymed:608d4f0d-b19f-46d3-749a-7159aa5f933d>
+
+# external: -> <http://bio2rdf.org/pharmgkb:PA10004> <http://bio2rdf.org/pharmgkb_vocabulary:x-dpd> <http://bio2rdf.org/dpd:2258595>
+# external: -> <http://bio2rdf.org/pharmgkb:PA10004> <http://bio2rdf.org/pharmgkb_vocabulary:x-ndc> <http://bio2rdf.org/ndc:0074-3799-02>
+# external: -> <http://bio2rdf.org/pharmgkb:PA1000> <http://bio2rdf.org/pharmgkb_vocabulary:x-bindingdb> <http://bio2rdf.org/bindingdb:50240908>
+# external: -> <http://bio2rdf.org/pharmgkb:PA10090> <http://bio2rdf.org/pharmgkb_vocabulary:x-het> <http://bio2rdf.org/ccd:GLN>
+# external: -> <http://bio2rdf.org/pharmgkb:PA1000> <http://bio2rdf.org/pharmgkb_vocabulary:x-pubchemsubstance> <http://bio2rdf.org/pubchem.substance:151385>
+# external: -> <http://bio2rdf.org/pharmgkb:PA1000> <http://bio2rdf.org/pharmgkb_vocabulary:x-ttd> <http://bio2rdf.org/ttd:DAP000206>
+# external: -> <http://bio2rdf.org/pharmgkb:PA10004> <http://bio2rdf.org/pharmgkb_vocabulary:x-genbank> <http://bio2rdf.org/genbank:J00228>
+# external: -> <http://bio2rdf.org/pharmgkb:PA10026> <http://bio2rdf.org/pharmgkb_vocabulary:x-iupharligand> <http://bio2rdf.org/iuphar.ligand:34>
+# external: -> <http://bio2rdf.org/pharmgkb:PA10004> <http://bio2rdf.org/pharmgkb_vocabulary:x-clinicaltrials> <http://bio2rdf.org/clinicaltrials:NCT01004432>
+
+
+========pharmgkb disease===============
+
+external: -> <http://bio2rdf.org/pharmgkb:PA128406954> <http://bio2rdf.org/pharmgkb_vocabulary:x-MedDRA> <http://bio2rdf.org/meddra:10063441>
+external: -> <http://bio2rdf.org/pharmgkb:PA160680212> <http://bio2rdf.org/pharmgkb_vocabulary:x-),SnoMedCT> <http://bio2rdf.org/snomedct:46732000>
+external: -> <http://bio2rdf.org/pharmgkb:PA128406954> <http://bio2rdf.org/pharmgkb_vocabulary:x-MeSH> <http://bio2rdf.org/mesh:D015430>
+external: -> <http://bio2rdf.org/pharmgkb:PA165109046> <http://bio2rdf.org/pharmgkb_vocabulary:x-),UMLS> <http://bio2rdf.org/umls:C0021071>
+external: -> <http://bio2rdf.org/pharmgkb:PA128406954> <http://bio2rdf.org/pharmgkb_vocabulary:x-UMLS> <http://bio2rdf.org/umls:C0043094>
+external: -> <http://bio2rdf.org/pharmgkb:PA165108806> <http://bio2rdf.org/pharmgkb_vocabulary:x-),NDFRT> <http://bio2rdf.org/ndfrt:N0000001773>
+external: -> <http://bio2rdf.org/pharmgkb:PA128406954> <http://bio2rdf.org/pharmgkb_vocabulary:x-SnoMedCT> <http://bio2rdf.org/snomedct:161831008>
+external: -> <http://bio2rdf.org/pharmgkb:PA128406954> <http://bio2rdf.org/pharmgkb_vocabulary:x-NDFRT> <http://bio2rdf.org/ndfrt:N0000011140>
+
+# internal: -> <http://bio2rdf.org/pharmgkb:PA128407009> <http://www.w3.org/2002/07/owl#sameAs> <http://bio2rdf.org/pharmgkb_resource:c0b65b3beaf5acdac1e7869e44890a25>
+
+
+====================?? pharmGKB gene=============================
+
+?? internal: -> <http://bio2rdf.org/pharmgkb:PA100> <http://bio2rdf.org/pharmgkb_vocabulary:symbol> <http://bio2rdf.org/hgnc.symbol:CDC25C>
+
+external: -> <http://bio2rdf.org/pharmgkb:PA100> <http://bio2rdf.org/pharmgkb_vocabulary:x-go> <http://bio2rdf.org/go:0000079>
+external: -> <http://bio2rdf.org/pharmgkb:PA100> <http://bio2rdf.org/pharmgkb_vocabulary:x-omim> <http://bio2rdf.org/omim:157680>
+external: -> <http://bio2rdf.org/pharmgkb:PA100> <http://bio2rdf.org/pharmgkb_vocabulary:x-hgnc> <http://bio2rdf.org/hgnc:1727>
+external: -> <http://bio2rdf.org/pharmgkb:PA100> <http://bio2rdf.org/pharmgkb_vocabulary:x-uniprot> <http://bio2rdf.org/uniprot:P30307>
+
+# external: -> <http://bio2rdf.org/pharmgkb:PA121> <http://bio2rdf.org/pharmgkb_vocabulary:x-url> <http://www.imm.ki.se/CYPalleles/cyp2a6.htm>
+# external: -> <http://bio2rdf.org/pharmgkb:PA100> <http://bio2rdf.org/pharmgkb_vocabulary:x-alfred> <http://bio2rdf.org/alfred:LO016398B>
+# external: -> <http://bio2rdf.org/pharmgkb:PA100> <http://bio2rdf.org/pharmgkb_vocabulary:x-genecards> <http://bio2rdf.org/genecards:CDC25C>
+# external: -> <http://bio2rdf.org/pharmgkb:PA100> <http://bio2rdf.org/pharmgkb_vocabulary:x-mutdb> <http://bio2rdf.org/mutdb:CDC25C>
+# external: -> <http://bio2rdf.org/pharmgkb:PA100> <http://bio2rdf.org/pharmgkb_vocabulary:x-refseq> <http://bio2rdf.org/refseq:AC_000048>
+# external: -> <http://bio2rdf.org/pharmgkb:PA100> <http://bio2rdf.org/pharmgkb_vocabulary:x-ncbigene> <http://bio2rdf.org/ncbigene:995>
+# external: -> <http://bio2rdf.org/pharmgkb:PA100> <http://bio2rdf.org/pharmgkb_vocabulary:x-humancyc> <http://bio2rdf.org/humancyc:HS08286>
+# external: -> <http://bio2rdf.org/pharmgkb:PA100> <http://bio2rdf.org/pharmgkb_vocabulary:x-genatlas> <http://bio2rdf.org/genatlas:CDC25C>
+# external: -> <http://bio2rdf.org/pharmgkb:PA111> <http://bio2rdf.org/pharmgkb_vocabulary:x-iupharreceptor> <http://bio2rdf.org/iuphar.receptor:14>
+# external: -> <http://bio2rdf.org/pharmgkb:PA100> <http://bio2rdf.org/pharmgkb_vocabulary:x-ctd> <http://bio2rdf.org/ctd:995>
+# external: -> <http://bio2rdf.org/pharmgkb:PA100> <http://bio2rdf.org/pharmgkb_vocabulary:x-modbase> <http://bio2rdf.org/modbase:P30307>
+# external: -> <http://bio2rdf.org/pharmgkb:PA100> <http://bio2rdf.org/pharmgkb_vocabulary:x-ensembl> <http://bio2rdf.org/ensembl:ENSG00000158402>
+# external: -> <http://bio2rdf.org/pharmgkb:PA100> <http://bio2rdf.org/pharmgkb_vocabulary:x-huge> <http://bio2rdf.org/huge:CDC25C>
+# <http://bio2rdf.org/pharmgkb:PA100> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://pharmgkb.org/gene/PA100>
+
+========pharmgkn twoside==================
+
+internal: -> <http://bio2rdf.org/twosides:1> <http://bio2rdf.org/pharmgkb_vocabulary:chemical> <http://bio2rdf.org/pubchem.compound:206> 
+internal: -> <http://bio2rdf.org/twosides:1> <http://bio2rdf.org/pharmgkb_vocabulary:chemical> <http://bio2rdf.org/pubchem.compound:85>
+
+# internal: -> <http://bio2rdf.org/twosides:1> <http://bio2rdf.org/pharmgkb_vocabulary:event> <http://bio2rdf.org/umls:C0004623>
+
+
+==============pharmgkb rid===========
+
+# internal: -> <http://bio2rdf.org/dbsnp:rs5085> <http://bio2rdf.org/pharmgkb_vocabulary:gene> <http://bio2rdf.org/pharmgkb:PA24886>

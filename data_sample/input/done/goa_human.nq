@@ -1,0 +1,101 @@
+<http://bio2rdf.org/uniprot:A0A183> <http://purl.org/dc/terms/identifier> "uniprot:A0A183"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/uniprot:A0A183> <http://bio2rdf.org/bio2rdf_vocabulary:namespace> "uniprot"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/uniprot:A0A183> <http://bio2rdf.org/bio2rdf_vocabulary:identifier> "A0A183"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/uniprot:A0A183> <http://bio2rdf.org/bio2rdf_vocabulary:uri> "http://bio2rdf.org/uniprot:A0A183"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/bio2rdf_vocabulary:namespace> <http://www.w3.org/2000/01/rdf-schema#label> "Bio2RDF namespace" <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/bio2rdf_vocabulary:namespace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/bio2rdf_vocabulary:identifier> <http://www.w3.org/2000/01/rdf-schema#label> "Bio2RDF identifier" <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/bio2rdf_vocabulary:identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/bio2rdf_vocabulary:uri> <http://www.w3.org/2000/01/rdf-schema#label> "Bio2RDF uri" <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/bio2rdf_vocabulary:uri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/uniprot:A0A183> <http://bio2rdf.org/bio2rdf_vocabulary:x-identifiers.org> <http://identifiers.org/uniprot/A0A183> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/bio2rdf_vocabulary:x-identifiers.org> <http://www.w3.org/2000/01/rdf-schema#label> "identifiers.org URI" <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/bio2rdf_vocabulary:x-identifiers.org> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/bio2rdf_vocabulary:x-provider-uri> <http://www.w3.org/2000/01/rdf-schema#label> "Provider URI" <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/bio2rdf_vocabulary:x-provider-uri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/uniprot:A0A183> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/uniprot_vocabulary:Resource> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/uniprot_vocabulary:Resource> <http://www.w3.org/2000/01/rdf-schema#label> "uniprot resource [uniprot_vocabulary:Resource]" <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/uniprot_vocabulary:Resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/uniprot:A0A183> <http://rdfs.org/ns/void#inDataset> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/uniprot:A0A183> <http://www.w3.org/2000/01/rdf-schema#label> "Late cornified envelope protein 6A [uniprot:A0A183]"@en  <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/uniprot:A0A183> <http://purl.org/dc/terms/title> "Late cornified envelope protein 6A"@en  <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/uniprot:A0A183> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/goa_vocabulary:GO-Annotation> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:GO-Annotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:GO-Annotation> <http://purl.org/dc/terms/identifier> "goa_vocabulary:GO-Annotation"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:GO-Annotation> <http://bio2rdf.org/bio2rdf_vocabulary:namespace> "goa_vocabulary"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:GO-Annotation> <http://bio2rdf.org/bio2rdf_vocabulary:identifier> "GO-Annotation"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:GO-Annotation> <http://bio2rdf.org/bio2rdf_vocabulary:uri> "http://bio2rdf.org/goa_vocabulary:GO-Annotation"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:GO-Annotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/goa_vocabulary:Resource> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:Resource> <http://www.w3.org/2000/01/rdf-schema#label> "goa_vocabulary resource [goa_vocabulary:Resource]" <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:Resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:GO-Annotation> <http://rdfs.org/ns/void#inDataset> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:GO-Annotation> <http://www.w3.org/2000/01/rdf-schema#label> "GO Annotation [goa_vocabulary:GO-Annotation]"@en  <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:GO-Annotation> <http://purl.org/dc/terms/title> "GO Annotation"@en  <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:GO-Annotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:symbol> <http://purl.org/dc/terms/identifier> "goa_vocabulary:symbol"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:symbol> <http://bio2rdf.org/bio2rdf_vocabulary:namespace> "goa_vocabulary"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:symbol> <http://bio2rdf.org/bio2rdf_vocabulary:identifier> "symbol"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:symbol> <http://bio2rdf.org/bio2rdf_vocabulary:uri> "http://bio2rdf.org/goa_vocabulary:symbol"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:symbol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/goa_vocabulary:Resource> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:symbol> <http://rdfs.org/ns/void#inDataset> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:symbol> <http://www.w3.org/2000/01/rdf-schema#label> "symbol [goa_vocabulary:symbol]"@en  <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:symbol> <http://purl.org/dc/terms/title> "symbol"@en  <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:symbol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/uniprot:A0A183> <http://bio2rdf.org/goa_vocabulary:symbol> "LCE6A"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/uniprot:A0A183> <http://bio2rdf.org/goa_vocabulary:x-taxonomy> <http://bio2rdf.org/taxonomy:9606> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:x-taxonomy> <http://purl.org/dc/terms/identifier> "goa_vocabulary:x-taxonomy"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:x-taxonomy> <http://bio2rdf.org/bio2rdf_vocabulary:namespace> "goa_vocabulary"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:x-taxonomy> <http://bio2rdf.org/bio2rdf_vocabulary:identifier> "x-taxonomy"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:x-taxonomy> <http://bio2rdf.org/bio2rdf_vocabulary:uri> "http://bio2rdf.org/goa_vocabulary:x-taxonomy"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:x-taxonomy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/goa_vocabulary:Resource> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:x-taxonomy> <http://rdfs.org/ns/void#inDataset> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:x-taxonomy> <http://www.w3.org/2000/01/rdf-schema#label> "x taxonomy [goa_vocabulary:x-taxonomy]"@en  <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:x-taxonomy> <http://purl.org/dc/terms/title> "x taxonomy"@en  <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:x-taxonomy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/taxonomy:9606> <http://purl.org/dc/terms/identifier> "taxonomy:9606"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/taxonomy:9606> <http://bio2rdf.org/bio2rdf_vocabulary:namespace> "taxonomy"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/taxonomy:9606> <http://bio2rdf.org/bio2rdf_vocabulary:identifier> "9606"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/taxonomy:9606> <http://bio2rdf.org/bio2rdf_vocabulary:uri> "http://bio2rdf.org/taxonomy:9606"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/taxonomy:9606> <http://bio2rdf.org/bio2rdf_vocabulary:x-identifiers.org> <http://identifiers.org/taxonomy/9606> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/taxonomy:9606> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/taxonomy_vocabulary:Resource> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/taxonomy_vocabulary:Resource> <http://www.w3.org/2000/01/rdf-schema#label> "taxonomy resource [taxonomy_vocabulary:Resource]" <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/taxonomy_vocabulary:Resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/taxonomy:9606> <http://rdfs.org/ns/void#inDataset> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:synonym> <http://purl.org/dc/terms/identifier> "goa_vocabulary:synonym"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:synonym> <http://bio2rdf.org/bio2rdf_vocabulary:namespace> "goa_vocabulary"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:synonym> <http://bio2rdf.org/bio2rdf_vocabulary:identifier> "synonym"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:synonym> <http://bio2rdf.org/bio2rdf_vocabulary:uri> "http://bio2rdf.org/goa_vocabulary:synonym"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:synonym> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/goa_vocabulary:Resource> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:synonym> <http://rdfs.org/ns/void#inDataset> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:synonym> <http://www.w3.org/2000/01/rdf-schema#label> "synonym [goa_vocabulary:synonym]"@en  <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:synonym> <http://purl.org/dc/terms/title> "synonym"@en  <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:synonym> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/uniprot:A0A183> <http://bio2rdf.org/goa_vocabulary:synonym> "LCE6A_HUMAN"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/uniprot:A0A183> <http://bio2rdf.org/goa_vocabulary:synonym> "LCE6A"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/uniprot:A0A183> <http://bio2rdf.org/goa_vocabulary:synonym> "C1orf44"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:process> <http://purl.org/dc/terms/identifier> "goa_vocabulary:process"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:process> <http://bio2rdf.org/bio2rdf_vocabulary:namespace> "goa_vocabulary"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:process> <http://bio2rdf.org/bio2rdf_vocabulary:identifier> "process"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:process> <http://bio2rdf.org/bio2rdf_vocabulary:uri> "http://bio2rdf.org/goa_vocabulary:process"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:process> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/goa_vocabulary:Resource> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:process> <http://rdfs.org/ns/void#inDataset> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:process> <http://www.w3.org/2000/01/rdf-schema#label> "process [goa_vocabulary:process]"@en  <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:process> <http://purl.org/dc/terms/title> "process"@en  <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:process> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/uniprot:A0A183> <http://bio2rdf.org/goa_vocabulary:process> <http://bio2rdf.org/go:0031424> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/go:0031424> <http://purl.org/dc/terms/identifier> "go:0031424"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/go:0031424> <http://bio2rdf.org/bio2rdf_vocabulary:namespace> "go"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/go:0031424> <http://bio2rdf.org/bio2rdf_vocabulary:identifier> "0031424"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/go:0031424> <http://bio2rdf.org/bio2rdf_vocabulary:uri> "http://bio2rdf.org/go:0031424"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/go:0031424> <http://bio2rdf.org/bio2rdf_vocabulary:x-identifiers.org> <http://identifiers.org/go/0031424> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/go:0031424> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/go_vocabulary:Resource> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/go_vocabulary:Resource> <http://www.w3.org/2000/01/rdf-schema#label> "go resource [go_vocabulary:Resource]" <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/go_vocabulary:Resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/go:0031424> <http://rdfs.org/ns/void#inDataset> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:go-annotation> <http://purl.org/dc/terms/identifier> "goa_vocabulary:go-annotation"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:go-annotation> <http://bio2rdf.org/bio2rdf_vocabulary:namespace> "goa_vocabulary"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:go-annotation> <http://bio2rdf.org/bio2rdf_vocabulary:identifier> "go-annotation"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:go-annotation> <http://bio2rdf.org/bio2rdf_vocabulary:uri> "http://bio2rdf.org/goa_vocabulary:go-annotation"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:go-annotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/goa_vocabulary:Resource> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:go-annotation> <http://rdfs.org/ns/void#inDataset> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .
+<http://bio2rdf.org/goa_vocabulary:go-annotation> <http://www.w3.org/2000/01/rdf-schema#label> "GO annotation [goa_vocabulary:go-annotation]"@en  <http://bio2rdf.org/goa_resource:bio2rdf.dataset.goa.R3> .

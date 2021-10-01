@@ -1,0 +1,7 @@
+<http://bio2rdf.org/offsides:1> <http://bio2rdf.org/pharmgkb_vocabulary:offside-target> <http://bio2rdf.org/umls:c0000737> .
+<http://bio2rdf.org/offsides:1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/pharmgkb_vocabulary:offsides> .
+<http://bio2rdf.org/pharmgkb_vocabulary:offsides> <http://bio2rdf.org/pharmgkb_vocabulary:offside-target> <http://bio2rdf.org/pharmgkb_vocabulary:targets> .
+<http://bio2rdf.org/pharmgkb_vocabulary:offsides> <http://bio2rdf.org/pharmgkb_vocabulary:offside-drug> <http://bio2rdf.org/pharmgkb_vocabulary:drugs> .
+<http://bio2rdf.org/umls:c0000737> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/pharmgkb_vocabulary:targets> .
+<http://bio2rdf.org/offsides:1> <http://bio2rdf.org/pharmgkb_vocabulary:offside-drug> <http://bio2rdf.org/pubchem.compound:76> .
+<http://bio2rdf.org/pubchem.compound:76> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/pharmgkb_vocabulary:drugs> .

@@ -1,0 +1,101 @@
+<http://bio2rdf.org/omim:A> <http://purl.org/dc/terms/identifier> "omim:A"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:A> <http://bio2rdf.org/bio2rdf_vocabulary:namespace> "omim"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:A> <http://bio2rdf.org/bio2rdf_vocabulary:identifier> "A"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:A> <http://bio2rdf.org/bio2rdf_vocabulary:uri> "http://bio2rdf.org/omim:A"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/bio2rdf_vocabulary:namespace> <http://www.w3.org/2000/01/rdf-schema#label> "Bio2RDF namespace" <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/bio2rdf_vocabulary:namespace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/bio2rdf_vocabulary:identifier> <http://www.w3.org/2000/01/rdf-schema#label> "Bio2RDF identifier" <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/bio2rdf_vocabulary:identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/bio2rdf_vocabulary:uri> <http://www.w3.org/2000/01/rdf-schema#label> "Bio2RDF uri" <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/bio2rdf_vocabulary:uri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:A> <http://bio2rdf.org/bio2rdf_vocabulary:x-identifiers.org> <http://identifiers.org/omim/A> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/bio2rdf_vocabulary:x-identifiers.org> <http://www.w3.org/2000/01/rdf-schema#label> "identifiers.org URI" <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/bio2rdf_vocabulary:x-identifiers.org> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/bio2rdf_vocabulary:x-provider-uri> <http://www.w3.org/2000/01/rdf-schema#label> "Provider URI" <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/bio2rdf_vocabulary:x-provider-uri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/omim_vocabulary:Resource> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim_vocabulary:Resource> <http://www.w3.org/2000/01/rdf-schema#label> "omim resource [omim_vocabulary:Resource]" <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim_vocabulary:Resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:A> <http://rdfs.org/ns/void#inDataset> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:A> <http://www.w3.org/2000/01/rdf-schema#label> "in situ DNA-RNA or DNA-DNA annealing (hybridization) [omim:A]"@en  <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:A> <http://purl.org/dc/terms/title> "in situ DNA-RNA or DNA-DNA annealing (hybridization)"@en  <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:AAS> <http://purl.org/dc/terms/identifier> "omim:AAS"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:AAS> <http://bio2rdf.org/bio2rdf_vocabulary:namespace> "omim"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:AAS> <http://bio2rdf.org/bio2rdf_vocabulary:identifier> "AAS"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:AAS> <http://bio2rdf.org/bio2rdf_vocabulary:uri> "http://bio2rdf.org/omim:AAS"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:AAS> <http://bio2rdf.org/bio2rdf_vocabulary:x-identifiers.org> <http://identifiers.org/omim/AAS> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:AAS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/omim_vocabulary:Resource> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:AAS> <http://rdfs.org/ns/void#inDataset> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:AAS> <http://www.w3.org/2000/01/rdf-schema#label> "inferred from the amino acid sequence [omim:AAS]"@en  <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:AAS> <http://purl.org/dc/terms/title> "inferred from the amino acid sequence"@en  <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:C> <http://purl.org/dc/terms/identifier> "omim:C"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:C> <http://bio2rdf.org/bio2rdf_vocabulary:namespace> "omim"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:C> <http://bio2rdf.org/bio2rdf_vocabulary:identifier> "C"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:C> <http://bio2rdf.org/bio2rdf_vocabulary:uri> "http://bio2rdf.org/omim:C"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:C> <http://bio2rdf.org/bio2rdf_vocabulary:x-identifiers.org> <http://identifiers.org/omim/C> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:C> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/omim_vocabulary:Resource> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:C> <http://rdfs.org/ns/void#inDataset> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:C> <http://www.w3.org/2000/01/rdf-schema#label> "chromosome mediated gene transfer [omim:C]"@en  <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:C> <http://purl.org/dc/terms/title> "chromosome mediated gene transfer"@en  <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:Ch> <http://purl.org/dc/terms/identifier> "omim:Ch"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:Ch> <http://bio2rdf.org/bio2rdf_vocabulary:namespace> "omim"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:Ch> <http://bio2rdf.org/bio2rdf_vocabulary:identifier> "Ch"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:Ch> <http://bio2rdf.org/bio2rdf_vocabulary:uri> "http://bio2rdf.org/omim:Ch"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:Ch> <http://bio2rdf.org/bio2rdf_vocabulary:x-identifiers.org> <http://identifiers.org/omim/Ch> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:Ch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/omim_vocabulary:Resource> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:Ch> <http://rdfs.org/ns/void#inDataset> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:Ch> <http://www.w3.org/2000/01/rdf-schema#label> "chromosomal change associated with phenotype and not linkage (Fc), deletion (D), or virus effect (V) [omim:Ch]"@en  <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:Ch> <http://purl.org/dc/terms/title> "chromosomal change associated with phenotype and not linkage (Fc), deletion (D), or virus effect (V)"@en  <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:D> <http://purl.org/dc/terms/identifier> "omim:D"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:D> <http://bio2rdf.org/bio2rdf_vocabulary:namespace> "omim"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:D> <http://bio2rdf.org/bio2rdf_vocabulary:identifier> "D"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:D> <http://bio2rdf.org/bio2rdf_vocabulary:uri> "http://bio2rdf.org/omim:D"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:D> <http://bio2rdf.org/bio2rdf_vocabulary:x-identifiers.org> <http://identifiers.org/omim/D> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:D> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/omim_vocabulary:Resource> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:D> <http://rdfs.org/ns/void#inDataset> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:D> <http://www.w3.org/2000/01/rdf-schema#label> "deletion or dosage mapping, trisomy mapping, or gene dosage effects [omim:D]"@en  <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:D> <http://purl.org/dc/terms/title> "deletion or dosage mapping, trisomy mapping, or gene dosage effects"@en  <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:EM> <http://purl.org/dc/terms/identifier> "omim:EM"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:EM> <http://bio2rdf.org/bio2rdf_vocabulary:namespace> "omim"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:EM> <http://bio2rdf.org/bio2rdf_vocabulary:identifier> "EM"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:EM> <http://bio2rdf.org/bio2rdf_vocabulary:uri> "http://bio2rdf.org/omim:EM"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:EM> <http://bio2rdf.org/bio2rdf_vocabulary:x-identifiers.org> <http://identifiers.org/omim/EM> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:EM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/omim_vocabulary:Resource> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:EM> <http://rdfs.org/ns/void#inDataset> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:EM> <http://www.w3.org/2000/01/rdf-schema#label> "exclusion mapping [omim:EM]"@en  <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:EM> <http://purl.org/dc/terms/title> "exclusion mapping"@en  <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:F> <http://purl.org/dc/terms/identifier> "omim:F"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:F> <http://bio2rdf.org/bio2rdf_vocabulary:namespace> "omim"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:F> <http://bio2rdf.org/bio2rdf_vocabulary:identifier> "F"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:F> <http://bio2rdf.org/bio2rdf_vocabulary:uri> "http://bio2rdf.org/omim:F"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:F> <http://bio2rdf.org/bio2rdf_vocabulary:x-identifiers.org> <http://identifiers.org/omim/F> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:F> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/omim_vocabulary:Resource> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:F> <http://rdfs.org/ns/void#inDataset> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:F> <http://www.w3.org/2000/01/rdf-schema#label> "linkage study in families [omim:F]"@en  <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:F> <http://purl.org/dc/terms/title> "linkage study in families"@en  <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:Fc> <http://purl.org/dc/terms/identifier> "omim:Fc"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:Fc> <http://bio2rdf.org/bio2rdf_vocabulary:namespace> "omim"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:Fc> <http://bio2rdf.org/bio2rdf_vocabulary:identifier> "Fc"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:Fc> <http://bio2rdf.org/bio2rdf_vocabulary:uri> "http://bio2rdf.org/omim:Fc"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:Fc> <http://bio2rdf.org/bio2rdf_vocabulary:x-identifiers.org> <http://identifiers.org/omim/Fc> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:Fc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/omim_vocabulary:Resource> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:Fc> <http://rdfs.org/ns/void#inDataset> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:Fc> <http://www.w3.org/2000/01/rdf-schema#label> "linkage study - chromosomal heteromorphism or rearrangement is one trait [omim:Fc]"@en  <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:Fc> <http://purl.org/dc/terms/title> "linkage study - chromosomal heteromorphism or rearrangement is one trait"@en  <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:Fd> <http://purl.org/dc/terms/identifier> "omim:Fd"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:Fd> <http://bio2rdf.org/bio2rdf_vocabulary:namespace> "omim"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:Fd> <http://bio2rdf.org/bio2rdf_vocabulary:identifier> "Fd"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:Fd> <http://bio2rdf.org/bio2rdf_vocabulary:uri> "http://bio2rdf.org/omim:Fd"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:Fd> <http://bio2rdf.org/bio2rdf_vocabulary:x-identifiers.org> <http://identifiers.org/omim/Fd> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:Fd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/omim_vocabulary:Resource> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:Fd> <http://rdfs.org/ns/void#inDataset> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:Fd> <http://www.w3.org/2000/01/rdf-schema#label> "linkage study - one or both of the linked loci are identified by a DNA polymorphism [omim:Fd]"@en  <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:Fd> <http://purl.org/dc/terms/title> "linkage study - one or both of the linked loci are identified by a DNA polymorphism"@en  <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:H> <http://purl.org/dc/terms/identifier> "omim:H"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:H> <http://bio2rdf.org/bio2rdf_vocabulary:namespace> "omim"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:H> <http://bio2rdf.org/bio2rdf_vocabulary:identifier> "H"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:H> <http://bio2rdf.org/bio2rdf_vocabulary:uri> "http://bio2rdf.org/omim:H"^^<http://www.w3.org/2001/XMLSchema#string> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:H> <http://bio2rdf.org/bio2rdf_vocabulary:x-identifiers.org> <http://identifiers.org/omim/H> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:H> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/omim_vocabulary:Resource> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:H> <http://rdfs.org/ns/void#inDataset> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .
+<http://bio2rdf.org/omim:H> <http://www.w3.org/2000/01/rdf-schema#label> "based on presumed homology [omim:H]"@en  <http://bio2rdf.org/omim_resource:bio2rdf.dataset.omim.R3> .

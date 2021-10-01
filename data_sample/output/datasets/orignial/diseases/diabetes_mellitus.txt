@@ -1,0 +1,12 @@
+be0000215	peroxisome proliferator-activated receptor gamma 
+be0000457	ectonucleotide pyrophosphatase/phosphodiesterase family member 1 
+be0000207	atp-binding cassette sub-family c member 8 
+be0000527	glucagon receptor 
+be0001056	glucokinase 
+be0000163	vascular endothelial growth factor a 
+be0001045	solute carrier family 2, facilitated glucose transporter member 2 
+be0000977	insulin receptor substrate 1 
+be0001172	rac-beta serine/threonine-protein kinase 
+be0000221	angiotensin-converting enzyme 
+be0000708	atp-sensitive inward rectifier potassium channel 11 
+be0000033	insulin receptor 

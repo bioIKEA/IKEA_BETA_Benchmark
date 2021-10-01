@@ -1,0 +1,9 @@
+be0000215	peroxisome proliferator-activated receptor gamma 
+be0000457	ectonucleotide pyrophosphatase/phosphodiesterase family member 1 
+be0000622	aldo-keto reductase family 1 member c2 
+be0000423	sodium- and chloride-dependent neutral and basic amino acid transporter b(0+) 
+be0000947	pro-opiomelanocortin 
+be0001012	beta-3 adrenergic receptor 
+be0002125	neuroendocrine convertase 1 
+be0003376	leptin receptor 
+be0000694	beta-2 adrenergic receptor 

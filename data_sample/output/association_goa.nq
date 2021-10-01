@@ -1,0 +1,2 @@
+<http://bio2rdf.org/goa_vocabulary:genes> <http://bio2rdf.org/goa_vocabulary:function> <http://bio2rdf.org/goa_vocabulary:functions> .
+<http://bio2rdf.org/goa_vocabulary:genes> <http://bio2rdf.org/goa_vocabulary:component> <http://bio2rdf.org/goa_vocabulary:components> .

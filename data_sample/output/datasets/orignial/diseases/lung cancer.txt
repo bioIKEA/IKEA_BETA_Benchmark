@@ -1,0 +1,2 @@
+be0000634	serine/threonine-protein kinase b-raf 
+be0000767	epidermal growth factor receptor 

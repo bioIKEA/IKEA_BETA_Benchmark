@@ -1,0 +1,4 @@
+<http://bio2rdf.org/drugbank:db00381> <http://bio2rdf.org/drugbank:be0000215> true 
+<http://bio2rdf.org/drugbank:db00115> <http://bio2rdf.org/drugbank:be0001012> true 
+<http://bio2rdf.org/drugbank:db00381> <http://bio2rdf.org/drugbank:be0000457> false 
+<http://bio2rdf.org/drugbank:db00381> <http://bio2rdf.org/drugbank:be0000694> false 
