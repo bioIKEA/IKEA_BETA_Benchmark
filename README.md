@@ -40,8 +40,8 @@ There were five types of evaluation tasks designed based on the different combin
 We have provided three sources for you, 1) benchmark-raw (raw data directly downloaded from each source),  2) benchmark-data (networks and mappings), 3) benchmark-tasks (a total of 1300 tasks). Please follow the path to download the archived benchmark and data. Please note, the archives are encrypted due to the copy-right policy regulated by the license (e.g., drugbank). If you want to use data for your study, please prepare the license and contact the author (Zong.nansu@mayo.edu) for decryption.
 
 - benchmark/row/  ** These are the raw data **
-- benchmark/data/ ** These are the benchmark data, i.e., networks and mappings **
-- benchmark/tasks/ (Link:https://terabox.com/s/1We77C68y3zh0g6gfywUcXA  Password:a84z) ** These are the evaluation tasks in the benchmark **
+- benchmark/data/ (https://terabox.com/s/1RHdoBZi9T6AlJbt4Gnbwgw)  Password:t6k3 ** These are the benchmark data, i.e., networks and mappings **
+- benchmark/tasks/ (https://terabox.com/s/1We77C68y3zh0g6gfywUcXA)  Password:a84z ** These are the evaluation tasks in the benchmark **
 
 
 ## Generate your own version of benchmark
