@@ -34,14 +34,14 @@ There were five types of evaluation tasks designed based on the different combin
 </tr>
 </tabe>
   
-# How to use kkkkk
+# How to use
 
 ## Downlaod the latest benchmark
-We have provided three sources for you, 1) benchmark-raw (raw data directly downloaded from each source),  2) benchmark-data (networks and mappings), 3) benchmark-tasks (a total of 1300 tasks). Please follow the path to download the archived benchmark and data. Please note, you don't need licenses to obtain all the evaluation tasks. However, the archives of raw data and benchmark data are encrypted due to the copy-right policy regulated by the license in each database used. You need to get the licenses and contact the author (Zong.nansu@mayo.edu) for decryption.
+We have provided three sources for you, 1) benchmark-raw (raw data directly downloaded from each source),  2) benchmark-data (networks and mappings), 3) benchmark-tasks (a total of 1300 tasks). Please follow the path to download the archived benchmark and data. Please note, the archives are encrypted due to the copy-right policy regulated by the license (e.g., drugbank). If you want to use data for your study, please prepare the license and contact the author (Zong.nansu@mayo.edu) for decryption.
 
-- benchmark/row/ ** These are the raw data, please prepare the licenses for decryption **
-- benchmark/data/ ** These are the data used in the benchmark, please prepare the licenses for decryption **
-- benchmark/tasks/ ** These are the evaluation tasks in the benchmark, you don't need licenses **
+- benchmark/row/  ** These are the raw data **
+- benchmark/data/ ** These are the benchmark data, i.e., networks and mappings **
+- benchmark/tasks/ (Link:https://terabox.com/s/1We77C68y3zh0g6gfywUcXA  Password:a84z) ** These are the evaluation tasks in the benchmark **
 
 
 ## Generate your own version of benchmark
