@@ -54,16 +54,22 @@ We also provide the codes to enable the generation of your own benchmark. You ne
    
 - Data download (You can reuse the data download from the benchmark if you do not need to replace them with the preferred version):
    - https://bio2rdf.org/ (RDF data of DrugBank, GOA, Irefindex, KEGG, Linkedspl, OMIM, Pharmgkb, Pharmgkb-offside, Sider)
-   - http://networkrepository.com/bio-diseasome.php (RDF form of Disease network from diseasome)
-   - https://go.drugbank.com/ (XML contains Drug-target associations from DrugBank)
+   - http://networkrepository.com/bio-diseasome.php (RDF data of Disease network from diseasome)
+   - https://go.drugbank.com/ (XML data contains Drug-target associations from DrugBank)
    - replace the sample files at data_sample/input/done with  RDF files downloaded from bio2rdf and diseasome  data_sample/input/done
    - put latest drug-target from DrugBank (xml) to data_sample/output/datasets/orinigal
    
-- Sample data: ** @ Warning: The sample datasets are used for demonstration of the data format, you need downloading full datasets to run. Running sample dataset will result in failure of the program**
-   - data_sample/input/done ## **Those are the datasets with a reduced size, please go the data sources to download the file with the corresponding names**
-   - data_sample/output/\*.nq ## ** Those are the example networks used in the benchmark, including associations and mappings **
-   - data_sample/output/datasets/experiment ## **Those are the example evaluation tasks for the benchmark, to generate the tasks needed a generation of the network first**
-   - data_sample/output/datasets/orinigal ## **Those are the files needed to generate the network and evaluation tasks. @ Warning: modification could result failure of the program**
+- Sample data: **Note: The sample datasets are used for demonstration of the data format only. Running sample dataset will result in failure of the program**
+   - data_sample/input/done (Sample raw data)
+   - data_sample/output (Sample network data and mappings)
+   - data_sample/output/datasets/experiment (Sample evaluation tasks)
+   - data_sample/output/datasets/orinigal (Sample supplementary data to generate the network and evaluation tasks.)
+   
+- Data space for the running program (You can modify the path for data space to put your data)
+   - data_sample/input/done (put raw data here)
+   - data_sample/output (put network data and mappings)
+   - data_sample/output/datasets/experiment (put evaluation tasks)
+   - data_sample/output/datasets/orinigal (put supplementary data)
    
 - Environment:
   - Java 1.8
