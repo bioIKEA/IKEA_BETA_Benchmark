@@ -1,0 +1,6 @@
+<http://bio2rdf.org/drugbank_resource:drugs> <http://bio2rdf.org/drugbank_vocabulary:drug-target> <http://bio2rdf.org/drugbank_resource:targets> .
+<http://bio2rdf.org/drugbank_resource:drugs> <http://bio2rdf.org/drugbank_vocabulary:drug-food> <http://bio2rdf.org/drugbank_resource:food_interactions> .
+<http://bio2rdf.org/drugbank_resource:drugs> <http://bio2rdf.org/drugbank_vocabulary:drug-binding> <http://bio2rdf.org/drugbank_resource:bindings> .
+<http://bio2rdf.org/drugbank_resource:drugs> <http://bio2rdf.org/drugbank_vocabulary:drug-substructure> <http://bio2rdf.org/drugbank_resource:drug_substructures> .
+<http://bio2rdf.org/drugbank_resource:drugs> <http://bio2rdf.org/drugbank_vocabulary:drug-category> <http://bio2rdf.org/drugbank_resource:drug_categories> .
+<http://bio2rdf.org/drugbank_resource:drugs> <http://bio2rdf.org/drugbank_vocabulary:drug-drug> <http://bio2rdf.org/drugbank_resource:drug_interactions> .

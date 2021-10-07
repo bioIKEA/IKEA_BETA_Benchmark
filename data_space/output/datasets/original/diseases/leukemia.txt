@@ -1,0 +1,10 @@
+be0000891	signal transducer and activator of transcription 5b 
+be0000147	receptor-type tyrosine-protein kinase flt3 
+be0000014	tyrosine-protein kinase abl1 
+be0001071	tyrosine-protein phosphatase non-receptor type 11 
+be0000246	apoptosis regulator bcl-2 
+be0001027	g1/s-specific cyclin-d1 
+be0003600	bcr/abl fusion protein isoform x9 
+be0000321	gmp synthase [glutamine-hydrolyzing] 
+be0001184	nad(p)h dehydrogenase [quinone] 1 
+be0000453	mast/stem cell growth factor receptor kit 

@@ -29,7 +29,7 @@ public class Test_drugClass {
 	
 	
 	public static void drugbanktoLinkpl() throws IOException {
-		BufferedReader br=new BufferedReader(new FileReader(new File(dataDir+"/output/datasets/orignial/association_drugbank.nq")));
+		BufferedReader br=new BufferedReader(new FileReader(new File(dataDir+"/output/datasets/original/association_drugbank.nq")));
 		String line=null;
 		HashSet<String> drugSet=new HashSet<>();
 		while((line=br.readLine())!=null) {
@@ -51,7 +51,7 @@ public class Test_drugClass {
 		br.close();
 		
 		HashMap<String, HashSet<String>> linkplToDrugbank=new HashMap<>();
-		br=new BufferedReader(new FileReader(new File(dataDir+"/output/datasets/orignial/drug_linkspl_drugbank.nq")));
+		br=new BufferedReader(new FileReader(new File(dataDir+"/output/datasets/original/drug_linkspl_drugbank.nq")));
 		line=null;
 		while((line=br.readLine())!=null) {
 			InputStream inputStream = new ByteArrayInputStream(line.getBytes());
@@ -78,7 +78,7 @@ public class Test_drugClass {
 		System.out.println("linkplToDrugbank: "+linkplToDrugbank.size());
 		HashMap<String, HashSet<String>> drugbankClass_1=new HashMap<>();
 		HashMap<String, HashSet<String>> drugbankClass_2=new HashMap<>();
-		br=new BufferedReader(new FileReader(new File(dataDir+"/output/datasets/orignial/association_linkspl.nq")));
+		br=new BufferedReader(new FileReader(new File(dataDir+"/output/datasets/original/association_linkspl.nq")));
 		line=null;
 		while((line=br.readLine())!=null) {
 			InputStream inputStream = new ByteArrayInputStream(line.getBytes());

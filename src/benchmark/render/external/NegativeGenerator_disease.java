@@ -478,7 +478,7 @@ public NegativeSetBean generate(long seed, Double ratio,String type, HashSet<Str
 	
 	
 	public HashSet<String> getDrugsWithSmile() throws IOException {
-		BufferedReader br = new BufferedReader(new FileReader(new File(dataDir+"/output/datasets/orignial/smile.txt")));
+		BufferedReader br = new BufferedReader(new FileReader(new File(dataDir+"/output/datasets/original/smile.txt")));
 		String line=null;
 		HashSet<String> drugs=new HashSet<>();
 		while((line=br.readLine())!=null){
@@ -490,7 +490,7 @@ public NegativeSetBean generate(long seed, Double ratio,String type, HashSet<Str
 
 	public HashSet<String> geTargetsWithSequence() throws IOException {
 		
-		BufferedReader br = new BufferedReader(new FileReader(new File(dataDir+"/output/datasets/orignial/sequence.txt")));
+		BufferedReader br = new BufferedReader(new FileReader(new File(dataDir+"/output/datasets/original/sequence.txt")));
 		String line=null;
 		HashSet<String> targets=new HashSet<>();
 		while((line=br.readLine())!=null){

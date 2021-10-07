@@ -55,20 +55,22 @@ We also provide the codes to enable the generation of your own benchmark. You ne
 - Data download (You can reuse the data in the benchmark if you do not need to replace them with the preferred version):
    - https://bio2rdf.org/ (RDF data of DrugBank, GOA, Irefindex, KEGG, Linkedspl, OMIM, Pharmgkb, Pharmgkb-offside, Sider)
    - http://networkrepository.com/bio-diseasome.php (RDF data of Disease network from diseasome)
-   - https://go.drugbank.com/ (XML data contains Drug-target associations from DrugBank)
+   - https://go.drugbank.com/ (drugbank.xml data contains Drug-target associations from DrugBank)
    
 - Sample data: (**Note: The sample datasets are used for demonstration of the data format only. Running sample dataset will result in failure of the program**)
-   - data_sample/input/done (Sample raw data)
-   - data_sample/output (Sample network data and mappings)
-   - data_sample/output/datasets/experiment (Sample evaluation tasks)
-   - data_sample/output/datasets/orinigal (Sample supplementary data to generate the network and evaluation tasks.)
+   - data_sample/input/done (sample raw data)
+   - data_sample/output (sample network data and mappings)
+   - data_sample/output/datasets/experiment (sample evaluation tasks)
+   - data_sample/output/datasets/orignial (sample supplementary data to generate the network and evaluation tasks.)
    
-- Data space for the running program (You can modify the path for data space to put your data)
-   - data_space/input/done (put raw data here (input of Render_main.java))
-   - data_space/output (generate network data and mappings (output of Render_main.java))
-   - data_space/output/datasets/orinigal (put supplementary data (input of Benchmark_main.java))
-   - data_space/output/datasets/experiment (generate evaluation tasks (output of Benchmark_main.java))
-   
+- Data space for the running program
+   - data_space/input/done put raw data here (input path of Render_main.java)
+   - data_space/output generate network data and mappings (output path of Render_main.java)
+   - data_space/output/datasets/orignial put supplementary data (input path of Benchmark_main.java)
+   	- data_space/output/datasets/orignial/drugbank.xml copy drugbank.xml here
+   	- data_space/output/datasets/orignial/sequence.txt copy gene sequence data here
+   	- data_space/output/datasets/orignial/smile.xml copy chemical structure data here
+
    
 - Environment:
   - Java 1.8

@@ -1,0 +1,12 @@
+be0003381	serine/threonine-protein kinase chk2 
+be0003380	cellular tumor antigen p53 
+be0001027	g1/s-specific cyclin-d1 
+be0000634	serine/threonine-protein kinase b-raf 
+be0000404	ornithine decarboxylase 
+be0002379	phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit alpha isoform 
+be0000838	proto-oncogene tyrosine-protein kinase src 
+be0002133	fibroblast growth factor receptor 3 
+be0000985	catenin beta-1 
+be0001640	phospholipase a2, membrane associated 
+be0002851	mismatch repair endonuclease pms2 
+be0001861	tgf-beta receptor type-2 

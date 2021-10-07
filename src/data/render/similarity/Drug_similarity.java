@@ -40,7 +40,7 @@ public class Drug_similarity {
 
 	public static HashSet<String> pull_chemical_from_SimilarityFile() throws IOException {
 		BufferedReader br = new BufferedReader(new FileReader(new File(
-				dataDir+"/output/datasets/orignial/drug_similarity.tsv")));
+				dataDir+"/output/datasets/original/drug_similarity.tsv")));
 		String line=null;
 		HashSet<String> drugSet=new HashSet<>();
 		int i=0;

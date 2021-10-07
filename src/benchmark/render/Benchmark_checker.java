@@ -136,7 +136,7 @@ public class Benchmark_checker {
 	
 	public static HashSet<String> getTargets() throws IOException{
 		HashSet<String> targetSet=new HashSet<>();
-		BufferedReader bReader =new BufferedReader(new FileReader(new File(dataDir+"/output/datasets/orignial/sequence.txt")));
+		BufferedReader bReader =new BufferedReader(new FileReader(new File(dataDir+"/output/datasets/original/sequence.txt")));
 		String lineString=null;
 		while((lineString=bReader.readLine())!=null) {
 			String[] elementStrings=lineString.split("\t");
@@ -147,7 +147,7 @@ public class Benchmark_checker {
 	
 	public static HashSet<String> getDrugs() throws IOException{
 		HashSet<String> drugSet=new HashSet<>();
-		BufferedReader bReader =new BufferedReader(new FileReader(new File(dataDir+"/output/datasets/orignial/smile.txt")));
+		BufferedReader bReader =new BufferedReader(new FileReader(new File(dataDir+"/output/datasets/original/smile.txt")));
 		String lineString=null;
 		while((lineString=bReader.readLine())!=null) {
 			String[] elementStrings=lineString.split("\t");

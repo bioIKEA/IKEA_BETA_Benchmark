@@ -1,0 +1,9 @@
+be0001060	angiotensinogen 
+be0000668	mineralocorticoid receptor 
+be0004866	cyp3a 
+be0000117	prostacyclin synthase 
+be0000062	type-1 angiotensin ii receptor 
+be0002362	cytochrome p450 3a5 
+be0003793	endothelin-converting enzyme 1 
+be0000263	nitric oxide synthase, endothelial 
+be0000131	corticosteroid 11-beta-dehydrogenase isozyme 2 

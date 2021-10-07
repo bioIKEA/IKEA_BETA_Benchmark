@@ -139,7 +139,7 @@ public class Generate_Annotation_Disease {
 	}
 	
 	public static HashMap<String, HashSet<String>> diseasomeTargetToDrugBankTarget() throws IOException{
-		BufferedReader br=new BufferedReader(new FileReader(new File(dataDir+"/output/datasets/orignial/network/target_diseasome_drugbank.nq")));
+		BufferedReader br=new BufferedReader(new FileReader(new File(dataDir+"/output/datasets/original/network/target_diseasome_drugbank.nq")));
 		String line=null;
 		HashMap<String, HashSet<String>> mappingHashMap=new HashMap<>();
 		while((line=br.readLine())!=null) {
@@ -168,7 +168,7 @@ public class Generate_Annotation_Disease {
 	
 	
 	public static HashMap<String, HashSet<String>> diseaseToGenes_pharmgkb() throws IOException{
-		BufferedReader br=new BufferedReader(new FileReader(new File(dataDir+"/output/datasets/orignial/association_pharmgkb.nq")));
+		BufferedReader br=new BufferedReader(new FileReader(new File(dataDir+"/output/datasets/original/association_pharmgkb.nq")));
 		String line=null;
 		HashMap<String, HashSet<String>> mappingHashMap=new HashMap<>();
 		while((line=br.readLine())!=null) {
@@ -198,7 +198,7 @@ public class Generate_Annotation_Disease {
 	
 		
 	public static HashMap<String, HashSet<String>> diseaseToGenes_diseasome() throws IOException{
-		BufferedReader br=new BufferedReader(new FileReader(new File(dataDir+"/output/datasets/orignial/network/association_diseasome.nq")));
+		BufferedReader br=new BufferedReader(new FileReader(new File(dataDir+"/output/datasets/original/network/association_diseasome.nq")));
 		String line=null;
 		HashMap<String, HashSet<String>> mappingHashMap=new HashMap<>();
 		while((line=br.readLine())!=null) {

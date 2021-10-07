@@ -1,0 +1,2 @@
+be0003380	cellular tumor antigen p53 
+be0000665	activin receptor type-1b 

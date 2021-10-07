@@ -98,7 +98,7 @@ public class External_Testgenerator {
 	
 	
 	public static HashMap<String, HashSet<String>> diseaseToGenes_pharmgkb() throws IOException{
-		BufferedReader br=new BufferedReader(new FileReader(new File(dataDir+"/output/datasets/orignial/association_pharmgkb.nq")));
+		BufferedReader br=new BufferedReader(new FileReader(new File(dataDir+"/output/datasets/original/association_pharmgkb.nq")));
 		String line=null;
 		HashMap<String, HashSet<String>> mappingHashMap=new HashMap<>();
 		while((line=br.readLine())!=null) {
@@ -344,7 +344,7 @@ public class External_Testgenerator {
 	public static HashSet<String> getTargets() throws IOException {
 		HashSet<String> targetSet = new HashSet<>();
 		BufferedReader bReader = new BufferedReader(new FileReader(
-				new File(dataDir+"/output/datasets/orignial/sequence.txt")));
+				new File(dataDir+"/output/datasets/original/sequence.txt")));
 		String lineString = null;
 		while ((lineString = bReader.readLine()) != null) {
 			String[] elementStrings = lineString.split("\t");
@@ -356,7 +356,7 @@ public class External_Testgenerator {
 	public static HashSet<String> getDrugs() throws IOException {
 		HashSet<String> drugSet = new HashSet<>();
 		BufferedReader bReader = new BufferedReader(new FileReader(
-				new File(dataDir+"/output/datasets/orignial/smile.txt")));
+				new File(dataDir+"/output/datasets/original/smile.txt")));
 		String lineString = null;
 		while ((lineString = bReader.readLine()) != null) {
 			String[] elementStrings = lineString.split("\t");

@@ -1,0 +1,7 @@
+be0001119	apolipoprotein e 
+be0003392	amyloid beta a4 protein 
+be0000910	alpha-2-macroglobulin 
+be0000221	angiotensin-converting enzyme 
+be0000263	nitric oxide synthase, endothelial 
+be0000895	urokinase-type plasminogen activator 
+be0001075	myeloperoxidase 

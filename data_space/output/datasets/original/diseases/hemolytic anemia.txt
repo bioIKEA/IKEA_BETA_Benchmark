@@ -1,0 +1,6 @@
+be0001108	hexokinase-1 
+be0001089	glucose-6-phosphate 1-dehydrogenase 
+be0000185	glutathione synthetase 
+be0001199	glucose-6-phosphate isomerase 
+be0000166	glutamate--cysteine ligase catalytic subunit 
+be0001262	adenylate kinase isoenzyme 1 

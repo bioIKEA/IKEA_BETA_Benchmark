@@ -26,7 +26,7 @@ public class Gene_similarity {
 	public static HashSet<String> pull_gene_fromSimilarity() throws IOException {
 		HashSet<String> gene_set=new HashSet<>();
 		BufferedReader br = new BufferedReader(new FileReader(new File(
-				dataDir+"/output/datasets/orignial/gene_similarity_matrix_cosine.txt")));
+				dataDir+"/output/datasets/original/gene_similarity_matrix_cosine.txt")));
 		String line=null;
 		int i=0;
 		while((line=br.readLine())!=null){

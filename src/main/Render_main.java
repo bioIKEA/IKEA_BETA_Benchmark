@@ -298,8 +298,8 @@ public class Render_main {
 		bw.close();
 	}
 	public static void calculate_feature() throws IOException {
-		Generate_feature.pull_chemical("dataDir"+"/output/datasets/orignial/smile.txt");
-		Generate_feature.pull_gene(dataDir+"/output/datasets/orignial/sequence.txt");
+		Generate_feature.pull_chemical("dataDir"+"/output/datasets/original/smile.txt");
+		Generate_feature.pull_gene(dataDir+"/output/datasets/original/sequence.txt");
 	}
 	public static void split(String file, int number) throws IOException {
 		BufferedReader br=new BufferedReader(new FileReader(new File(file)));

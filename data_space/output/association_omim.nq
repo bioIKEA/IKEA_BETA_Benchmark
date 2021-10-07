@@ -1,0 +1,3 @@
+<http://bio2rdf.org/omim_vocabulary:diseases> <http://bio2rdf.org/omim_vocabulary:disease-feature> <http://bio2rdf.org/omim_vocabulary:features> .
+<http://bio2rdf.org/omim_vocabulary:diseases> <http://bio2rdf.org/omim_vocabulary:disease-map_symbol> <http://bio2rdf.org/omim_vocabulary:gene_symbols> .
+<http://bio2rdf.org/omim_vocabulary:diseases> <http://bio2rdf.org/omim_vocabulary:disease-symbol> <http://bio2rdf.org/omim_vocabulary:gene_symbols> .

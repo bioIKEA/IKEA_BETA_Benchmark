@@ -187,7 +187,7 @@ public class Internal_Testgenerator {
 		HashMap<String, HashSet<String>> objectToTripleHashMap = getTripleFromObject();
 
 		BufferedReader br = new BufferedReader(
-				new FileReader(new File(dataDir+"/output/datasets/orignial/PTHR15.0_human")));
+				new FileReader(new File(dataDir+"/output/datasets/original/PTHR15.0_human")));
 		String lineString = null;
 
 		HashMap<String, HashSet<String>> pantherMolecular_uniprot = new HashMap<>();
@@ -1337,7 +1337,7 @@ public class Internal_Testgenerator {
 	
 	
 	public static HashSet<String> getDrugTarget() throws IOException {
-		String drugbank_file=dataDir+"/output/datasets/orignial/network/association_drugbank.nq";
+		String drugbank_file=dataDir+"/output/datasets/original/network/association_drugbank.nq";
 		
 		String line=null;
 		HashSet<String> targets=getTargets() ;
@@ -1781,7 +1781,7 @@ public class Internal_Testgenerator {
 	public static HashSet<String> getTargets() throws IOException {
 		HashSet<String> targetSet = new HashSet<>();
 		BufferedReader bReader = new BufferedReader(new FileReader(
-				new File(dataDir+"/output/datasets/orignial/sequence.txt")));
+				new File(dataDir+"/output/datasets/original/sequence.txt")));
 		String lineString = null;
 		while ((lineString = bReader.readLine()) != null) {
 			String[] elementStrings = lineString.split("\t");
@@ -1793,7 +1793,7 @@ public class Internal_Testgenerator {
 	public static HashSet<String> getDrugs() throws IOException {
 		HashSet<String> drugSet = new HashSet<>();
 		BufferedReader bReader = new BufferedReader(new FileReader(
-				new File(dataDir+"/output/datasets/orignial/smile.txt")));
+				new File(dataDir+"/output/datasets/original/smile.txt")));
 		String lineString = null;
 		while ((lineString = bReader.readLine()) != null) {
 			String[] elementStrings = lineString.split("\t");

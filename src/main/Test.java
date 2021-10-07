@@ -11,7 +11,7 @@ public class Test {
 		// TODO Auto-generated method stub
 		
 		File f=new File("src/main/Benchmark_main.java");
-		String string="dataDir"+"/output/datasets/orignial/smile.txt";
+		String string="dataDir"+"/output/datasets/original/smile.txt";
 		System.out.println(f.getName());
 	}
 

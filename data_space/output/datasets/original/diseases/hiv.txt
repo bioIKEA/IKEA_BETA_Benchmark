@@ -1,0 +1,4 @@
+be0000911	c-c chemokine receptor type 5 
+be0003387	c-c chemokine receptor type 2 
+be0000975	c-c motif chemokine 5 
+be0002484	interleukin-10 

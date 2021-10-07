@@ -86,7 +86,7 @@ public class Benchmark_main {
 	}
 	
 	public static void task_5() throws IOException, ParserConfigurationException, SAXException {
-		String annotation_file=dataDir+"/output/datasets/orignial/annotation_disease_results.csv";
+		String annotation_file=dataDir+"/output/datasets/original/annotation_disease_results.csv";
 		
 //		generate_clinicalCT_genral(annotation_file);
 //		generate_internal_clinicalCT(annotation_file);
@@ -231,7 +231,7 @@ public class Benchmark_main {
 	
 	public static void generate_diseaseClass(HashSet<String> diseases) throws IOException, ParserConfigurationException, SAXException {
 		
-		String drugbank_file=dataDir+"/output/datasets/orignial/network/association_drugbank.nq";
+		String drugbank_file=dataDir+"/output/datasets/original/network/association_drugbank.nq";
 		String drugbank_newfile=dataDir+"/input/full database_202011.xml";
 		
 		String line=null;
@@ -367,7 +367,7 @@ public class Benchmark_main {
 public static void generate_diseaseClass() throws IOException, ParserConfigurationException, SAXException {
 		
 		String drugbank_file=dataDir+"/output/association_drugbank.nq";
-		String drugbank_newfile=dataDir+"/output/datasets/orignial/full database_202011.xml";
+		String drugbank_newfile=dataDir+"/output/datasets/original/full database_202011.xml";
 		
 		String line=null;
 		HashSet<String> targets=getTargets() ;
@@ -495,7 +495,7 @@ public static void generate_ClinicCTClass(String annotation_file) throws IOExcep
 	}
 	
 	HashMap<String,HashSet<String>> disease_allTargets=new HashMap<>();
-	for(File file:new File(dataDir+"/output/datasets/orignial/diseases").listFiles()){
+	for(File file:new File(dataDir+"/output/datasets/original/diseases").listFiles()){
 		updateDisease_target(file.getAbsolutePath(),  targets, disease_allTargets);
 	}
 	System.out.println(disease_allTargets);
@@ -590,7 +590,7 @@ public static HashMap<String, HashSet<String>> filter(HashMap<String, HashSet<St
 	
 public static void check_diseaseClass() throws IOException, ParserConfigurationException, SAXException {
 		
-		String drugbank_file=dataDir+"/output/datasets/orignial/network/association_drugbank.nq";
+		String drugbank_file=dataDir+"/output/datasets/original/network/association_drugbank.nq";
 		String drugbank_newfile=dataDir+"/input/full database_202011.xml";
 //		String drugbank_newfile=dataDir+"/input/full database.xml";
 		HashSet<String> targets=getTargets() ;
@@ -693,7 +693,7 @@ public static void check_diseaseClass() throws IOException, ParserConfigurationE
 		HashSet<HashSet<String>> return_set=new HashSet<>();
 		HashMap<String,HashSet<String>> clusterHashSet=new HashMap<>();
 		BufferedReader br=new BufferedReader(new FileReader(new File(
-				dataDir+"/output/datasets/orignial/diseaseSome_cluster.csv")));
+				dataDir+"/output/datasets/original/diseaseSome_cluster.csv")));
 		String line=null;
 		while((line=br.readLine())!=null) {
 			String[] elements=line.split(",");
@@ -803,7 +803,7 @@ public static void check_diseaseClass() throws IOException, ParserConfigurationE
 	
 	public static HashSet<String> getTargets() throws IOException{
 		HashSet<String> targetSet=new HashSet<>();
-		BufferedReader bReader =new BufferedReader(new FileReader(new File(dataDir+"/output/datasets/orignial/sequence.txt")));
+		BufferedReader bReader =new BufferedReader(new FileReader(new File(dataDir+"/output/datasets/original/sequence.txt")));
 		String lineString=null;
 		while((lineString=bReader.readLine())!=null) {
 			String[] elementStrings=lineString.split("\t");
@@ -814,7 +814,7 @@ public static void check_diseaseClass() throws IOException, ParserConfigurationE
 	
 	public static HashSet<String> getDrugs() throws IOException{
 		HashSet<String> drugSet=new HashSet<>();
-		BufferedReader bReader =new BufferedReader(new FileReader(new File(dataDir+"/output/datasets/orignial/smile.txt")));
+		BufferedReader bReader =new BufferedReader(new FileReader(new File(dataDir+"/output/datasets/original/smile.txt")));
 		String lineString=null;
 		while((lineString=bReader.readLine())!=null) {
 			String[] elementStrings=lineString.split("\t");
@@ -826,7 +826,7 @@ public static void check_diseaseClass() throws IOException, ParserConfigurationE
 	
 	public static void generate_clinicalCT_genral(String annotation_file) throws IOException {
 		String line=null;
-		BufferedReader br=new BufferedReader(new FileReader(new File(dataDir+"/output/datasets/orignial/association_drugbank.nq")));
+		BufferedReader br=new BufferedReader(new FileReader(new File(dataDir+"/output/datasets/original/association_drugbank.nq")));
 		HashSet<String> tripleSet=new HashSet<>();
 		HashSet<String> targets=getTargets() ;
 		HashSet<String> drugs=getDrugs();
@@ -932,7 +932,7 @@ public static void check_diseaseClass() throws IOException, ParserConfigurationE
 	
 	public static void generate_internal_clinicalCT(String annotation_file) throws IOException {
 		String line=null;
-		BufferedReader br=new BufferedReader(new FileReader(new File(dataDir+"/output/datasets/orignial/network/association_drugbank.nq")));
+		BufferedReader br=new BufferedReader(new FileReader(new File(dataDir+"/output/datasets/original/network/association_drugbank.nq")));
 		HashSet<String> tripleSet=new HashSet<>();
 		HashSet<String> targets=getTargets() ;
 		HashSet<String> drugs=getDrugs();

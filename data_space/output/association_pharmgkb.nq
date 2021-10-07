@@ -1,0 +1,4 @@
+<http://bio2rdf.org/pharmgkb:pa443560> <http://bio2rdf.org/pharmgkb_vocabulary:disease-haplotype-Association> <http://bio2rdf.org/pharmgkb_resource:haplotype+for+pa128> .
+<http://bio2rdf.org/pharmgkb:pa443560> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/pharmgkb_vocabulary:disease> .
+<http://bio2rdf.org/pharmgkb_vocabulary:disease> <http://bio2rdf.org/pharmgkb_vocabulary:disease-haplotype-Association> <http://bio2rdf.org/pharmgkb_vocabulary:haplotype> .
+<http://bio2rdf.org/pharmgkb_resource:haplotype+for+pa128> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/pharmgkb_vocabulary:haplotype> .

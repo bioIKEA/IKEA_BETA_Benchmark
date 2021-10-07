@@ -302,7 +302,7 @@ public class Test_proteinClass {
 	
 	
 	public static HashMap<String, HashSet<String>> getTripleFromObject() throws IOException{
-		BufferedReader br = new BufferedReader(new FileReader(new File(dataDir+"/output/datasets/orignial/association_drugbank.nq")));
+		BufferedReader br = new BufferedReader(new FileReader(new File(dataDir+"/output/datasets/original/association_drugbank.nq")));
 		String line=null;
 		HashMap<String,HashSet<String>> valueHashMap=new HashMap<>();
 		while((line=br.readLine())!=null){

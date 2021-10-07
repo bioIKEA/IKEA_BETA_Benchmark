@@ -33,7 +33,7 @@ public class VersioningbasedDrugBankXML {
 	
 		HashMap<String,String> xml_relations=extract_newDrugBankRelation
 				(dataDir+"/input/full database.xml");
-		Set<String> retained_relationSet=Retain(dataDir+"/output/datasets/orignial/association_drugbank.nq", 
+		Set<String> retained_relationSet=Retain(dataDir+"/output/datasets/original/association_drugbank.nq", 
 				xml_relations);
 		
 		System.out.println("xml_relations: "+xml_relations.size());
