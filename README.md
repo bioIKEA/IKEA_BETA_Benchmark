@@ -39,9 +39,9 @@ There were five types of evaluation tasks designed based on the different combin
 ## Downlaod the latest benchmark
 We have provided three sources for you, 1) benchmark-raw (raw data directly downloaded from each source),  2) benchmark-data (networks, similarity, chemical structure  & gene sequence, and mappings), 3) benchmark-tasks (a total of 1300 tasks). Please follow the path to download the archived benchmark and data. Please note, the archives are encrypted due to the copy-right policy regulated by the licenses (e.g., drugbank). If you want to use data for your study, please contact the author (Zong.nansu@mayo.edu) for decryption.
 
-- [benchmark raw](https://drive.google.com/file/d/1pWBYwhL4W514758r5su2qEQ4v0U_mM8n/view?usp=sharing)		(These are the raw data)
-- [benchmark data](https://drive.google.com/file/d/11IZSdXXmOsl2uNUg7u9OqRr_UrKCGer3/view?usp=sharing)		(These are the benchmark data, i.e., networks, similarity, chemical structure  & gene sequence, and mapping)
-- [benchmark tasks](https://drive.google.com/file/d/17OriW3K1PaagUHzkSQWTmB06kV0rMVWw/view?usp=sharing)		(These are the evaluation tasks in the benchmark)
+- [benchmark raw](https://drive.google.com/file/d/1pWBYwhL4W514758r5su2qEQ4v0U_mM8n/view?usp=sharing)		*(These are the raw data)*
+- [benchmark data](https://drive.google.com/file/d/11IZSdXXmOsl2uNUg7u9OqRr_UrKCGer3/view?usp=sharing)		*(These are the benchmark data, i.e., networks, similarity, chemical structure  & gene sequence, and mapping)*
+- [benchmark tasks](https://drive.google.com/file/d/17OriW3K1PaagUHzkSQWTmB06kV0rMVWw/view?usp=sharing)		*(These are the evaluation tasks in the benchmark)*
 
 
 ## Generate your own version of benchmark
@@ -52,24 +52,24 @@ We also provide the codes to enable the generation of your own benchmark. You ne
    - [bio2rdf](https://bio2rdf.org/)
    - [DiseaseNetwork](http://networkrepository.com/bio-diseasome.php)
    
-- Data download		(You can reuse the data in the benchmark if you do not need to replace them with the preferred version):
-   - https://bio2rdf.org		(RDF data of DrugBank, GOA, Irefindex, KEGG, Linkedspl, OMIM, Pharmgkb, Pharmgkb-offside, Sider)
-   - http://networkrepository.com/bio-diseasome.php		(RDF data of Disease network from diseasome)
-   - https://go.drugbank.com		(drugbank.xml data contains Drug-target associations from DrugBank)
+- Data download		*(You can reuse the data in the benchmark if you do not need to replace them with the preferred version):*
+   - https://bio2rdf.org		*(RDF data of DrugBank, GOA, Irefindex, KEGG, Linkedspl, OMIM, Pharmgkb, Pharmgkb-offside, Sider)*
+   - http://networkrepository.com/bio-diseasome.php		*(RDF data of Disease network from diseasome)*
+   - https://go.drugbank.com		*(drugbank.xml data contains Drug-target associations from DrugBank)*
    
 - Sample data:		(**Note: The sample datasets are used for demonstration of the data format only. Running sample dataset will result in failure of the program**)
-   - data_sample/input/done		(sample raw data)
-   - data_sample/output		(sample network data and mappings)
-   - data_sample/output/datasets/experiment		(sample evaluation tasks)
-   - data_sample/output/datasets/orignial		(sample supplementary data to generate the network and evaluation tasks)
+   - data_sample/input/done		*(sample raw data)*
+   - data_sample/output		*(sample network data and mappings)*
+   - data_sample/output/datasets/experiment		*(sample evaluation tasks)*
+   - data_sample/output/datasets/orignial		*(sample supplementary data to generate the network and evaluation tasks)*
    
 * Data space for the running program
-   * data_space/input		(put raw data here, input path of Render_main.java)
-   * data_space/output		(generate network data and mappings, output path of Render_main.java)
-   * data_space/output/datasets/orignial		(put supplementary data, input path of Benchmark_main.java)
-   		* data_space/output/datasets/orignial/drugbank.xml		(copy drugbank.xml here)
-   		* data_space/output/datasets/orignial/sequence.txt		(copy gene sequence data here)
-   		* data_space/output/datasets/orignial/smile.xml		(copy chemical structure data here)
+   * data_space/input		*(put raw data here, input path of Render_main.java)*
+   * data_space/output		*(generate network data and mappings, output path of Render_main.java)*
+   * data_space/output/datasets/orignial		*(put supplementary data, input path of Benchmark_main.java)*
+   		* data_space/output/datasets/orignial/drugbank.xml		*(copy drugbank.xml here)*
+   		* data_space/output/datasets/orignial/sequence.txt		*(copy gene sequence data here)*
+   		* data_space/output/datasets/orignial/smile.xml		*(copy chemical structure data here)*
 
 
    
@@ -80,9 +80,9 @@ We also provide the codes to enable the generation of your own benchmark. You ne
 - Maven install:
   - [Maven in eclipse](https://www.vogella.com/tutorials/EclipseMaven/article.html)
 - Network generation:
-  - Java src/main/Render_main.java		(running all the data needs approximately 1 hour)
+  - Java src/main/Render_main.java		*(running all the data needs approximately 1 hour)*
 - Benchmark generation:
-  - Java src/main/Benchmark_main.java		(running all the data needs approximately 3 hours)
+  - Java src/main/Benchmark_main.java		*(running all the data needs approximately 3 hours)*
   
 # Version
 We regularly generate a new version of the benchmark based on the newly released raw data. The current version is 1.0. 
