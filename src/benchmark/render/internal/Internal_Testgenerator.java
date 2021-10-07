@@ -33,7 +33,7 @@ import benchmark.render.Benchmark_checker;
 import java_cup.internal_error;
 
 public class Internal_Testgenerator {
-	public static String dataDir="data_sample";
+	public static String dataDir="data_space";
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 

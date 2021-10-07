@@ -20,7 +20,7 @@ import data.process.map.Hgnc;
 import data.process.map.Omim;
 
 public class Target_Diseasome2Drugbank {
-	public static String dataDir="data_sample";
+	public static String dataDir="data_space";
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 

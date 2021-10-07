@@ -16,7 +16,7 @@ import org.semanticweb.yars.nx.parser.NxParser;
 import org.tukaani.xz.check.Check;
 
 public class Parser_linkspl {
-	public static String dataDir="data_sample";
+	public static String dataDir="data_space";
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 //		getproterty_advance(dataDir+"/input/linkspl.nt") ;

@@ -13,7 +13,7 @@ import org.netlib.util.booleanW;
 import org.tukaani.xz.check.Check;
 
 public class Benchmark_checker {
-	public static String dataDir="data_sample";
+	public static String dataDir="data_space";
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		HashSet<String> targets=getTargets();

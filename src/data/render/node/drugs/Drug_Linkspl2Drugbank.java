@@ -18,7 +18,7 @@ import org.semanticweb.yars.nx.parser.NxParser;
 import javassist.expr.NewArray;
 
 public class Drug_Linkspl2Drugbank {
-	public static String dataDir="data_sample";
+	public static String dataDir="data_space";
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 

@@ -22,7 +22,7 @@ import java_cup.internal_error;
 import jsat.classifiers.DDAG;
 
 public class NegativeGenerator_targetClass {
-	public static String dataDir="data_sample";
+	public static String dataDir="data_space";
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 	}

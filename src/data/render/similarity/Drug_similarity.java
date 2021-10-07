@@ -18,7 +18,7 @@ import org.semanticweb.yars.nx.parser.NxParser;
 import java_cup.internal_error;
 
 public class Drug_similarity {
-	public static String dataDir="data_sample";
+	public static String dataDir="data_space";
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		HashSet<String> set_exisiting=pull_chemical_from_SimilarityFile() ;

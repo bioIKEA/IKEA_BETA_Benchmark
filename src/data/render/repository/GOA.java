@@ -22,7 +22,7 @@ import org.semanticweb.yars.nx.parser.NxParser;
  *
  */
 public class GOA {
-	public static String dataDir="data_sample";
+	public static String dataDir="data_space";
 	/**
 	 * @param args
 	 * @throws IOException 

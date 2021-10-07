@@ -23,7 +23,7 @@ import org.xml.sax.SAXException;
 import java_cup.internal_error;
 
 public class Test_clinicCT {
-	public static String dataDir="data_sample";
+	public static String dataDir="data_space";
 	public static void main(String[] args) throws ParserConfigurationException, SAXException, IOException {
 		// TODO Auto-generated method stub
 		XMLParse();

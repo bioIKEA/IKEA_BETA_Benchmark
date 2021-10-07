@@ -50,7 +50,7 @@ import jsat.linear.distancemetrics.PearsonDistance;
 
 public class Render_main {
 	
-	public static String dataDir="data_sample";
+	public static String dataDir="data_space";
 	
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
@@ -65,7 +65,6 @@ public class Render_main {
 		Offside();
 		Linkspl();
 		irefindex();
-
 	}
 	
 	public void setDataDir(String dir) {

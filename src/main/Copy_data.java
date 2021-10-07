@@ -20,7 +20,7 @@ public class Copy_data {
 //		cp("D:/data/drug-taget-network/Databases/data/release_4/input/done", "D:/data/drug-taget-network/Databases/data/github_data");
 //		cp("D:/data/drug-taget-network/Databases/data/release_4/output", "D:/data/drug-taget-network/Databases/data/github_data/output");
 		
-		cp("D:/data/drug-taget-network/Databases/data/github_data_upload_replication/output", "data_sample/output");
+		cp("D:/data/drug-taget-network/Databases/data/github_data_upload_replication/output", "data_space/output");
 	}
 	
 	

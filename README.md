@@ -52,22 +52,23 @@ We also provide the codes to enable the generation of your own benchmark. You ne
    - [bio2rdf](https://bio2rdf.org/)
    - [DiseaseNetwork](http://networkrepository.com/bio-diseasome.php)
    
-- Data download (You can reuse the data download from the benchmark if you do not need to replace them with the preferred version):
+- Data download (You can reuse the data in the benchmark if you do not need to replace them with the preferred version):
    - https://bio2rdf.org/ (RDF data of DrugBank, GOA, Irefindex, KEGG, Linkedspl, OMIM, Pharmgkb, Pharmgkb-offside, Sider)
    - http://networkrepository.com/bio-diseasome.php (RDF data of Disease network from diseasome)
    - https://go.drugbank.com/ (XML data contains Drug-target associations from DrugBank)
    
-- Sample data: **Note: The sample datasets are used for demonstration of the data format only. Running sample dataset will result in failure of the program**
+- Sample data: (**Note: The sample datasets are used for demonstration of the data format only. Running sample dataset will result in failure of the program**)
    - data_sample/input/done (Sample raw data)
    - data_sample/output (Sample network data and mappings)
    - data_sample/output/datasets/experiment (Sample evaluation tasks)
    - data_sample/output/datasets/orinigal (Sample supplementary data to generate the network and evaluation tasks.)
    
 - Data space for the running program (You can modify the path for data space to put your data)
-   - data_sample/input/done (put raw data here)
-   - data_sample/output (put network data and mappings)
-   - data_sample/output/datasets/experiment (put evaluation tasks)
-   - data_sample/output/datasets/orinigal (put supplementary data)
+   - data_space/input/done (put raw data here (input of Render_main.java))
+   - data_space/output (generate network data and mappings (output of Render_main.java))
+   - data_space/output/datasets/orinigal (put supplementary data (input of Benchmark_main.java))
+   - data_space/output/datasets/experiment (generate evaluation tasks (output of Benchmark_main.java))
+   
    
 - Environment:
   - Java 1.8

@@ -27,7 +27,7 @@ import org.xml.sax.SAXException;
 
 
 public class VersioningbasedDrugBankXML {
-	public static String dataDir="data_sample";
+	public static String dataDir="data_space";
 	public static void main(String[] args) throws IOException, ParserConfigurationException, SAXException {
 		// TODO Auto-generated method stub
 	

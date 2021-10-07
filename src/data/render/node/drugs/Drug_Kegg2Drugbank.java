@@ -19,7 +19,7 @@ import org.semanticweb.yars.nx.parser.NxParser;
 import jsat.regression.StochasticGradientBoosting;
 
 public class Drug_Kegg2Drugbank {
-	public static String dataDir="data_sample";
+	public static String dataDir="data_space";
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 
