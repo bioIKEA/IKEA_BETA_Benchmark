@@ -37,10 +37,10 @@ There were five types of evaluation tasks designed based on the different combin
 # How to use
 
 ## Downlaod the latest benchmark
-We have provided three sources for you, 1) benchmark-raw (raw data directly downloaded from each source),  2) benchmark-data (networks and mappings), 3) benchmark-tasks (a total of 1300 tasks). Please follow the path to download the archived benchmark and data. Please note, the archives are encrypted due to the copy-right policy regulated by the licenses (e.g., drugbank). If you want to use data for your study, please contact the author (Zong.nansu@mayo.edu) for decryption.
+We have provided three sources for you, 1) benchmark-raw (raw data directly downloaded from each source),  2) benchmark-data (networks, similarity, chemical structure  & gene sequence, and mappings), 3) benchmark-tasks (a total of 1300 tasks). Please follow the path to download the archived benchmark and data. Please note, the archives are encrypted due to the copy-right policy regulated by the licenses (e.g., drugbank). If you want to use data for your study, please contact the author (Zong.nansu@mayo.edu) for decryption.
 
 - [benchmark raw](https://drive.google.com/file/d/1pWBYwhL4W514758r5su2qEQ4v0U_mM8n/view?usp=sharing)  These are the raw data
-- [benchmark data](https://drive.google.com/file/d/11IZSdXXmOsl2uNUg7u9OqRr_UrKCGer3/view?usp=sharing) These are the benchmark data, i.e., networks and mappings 
+- [benchmark data](https://drive.google.com/file/d/11IZSdXXmOsl2uNUg7u9OqRr_UrKCGer3/view?usp=sharing) These are the benchmark data, i.e., networks, similarity, chemical structure  & gene sequence, and mapping 
 - [benchmark tasks](https://drive.google.com/file/d/17OriW3K1PaagUHzkSQWTmB06kV0rMVWw/view?usp=sharing) These are the evaluation tasks in the benchmark
 
 
