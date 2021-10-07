@@ -52,10 +52,10 @@ We also provide the codes to enable the generation of your own benchmark. You ne
    - [bio2rdf](https://bio2rdf.org/)
    - [DiseaseNetwork](http://networkrepository.com/bio-diseasome.php)
    
-- Data download ** (you can reuse the data in the latest benchmark if you do not need to replace them with the preferred version) **:
-   - https://bio2rdf.org/ --> RDF forms of DrugBank, GOA, Irefindex, KEGG, Linkedspl, OMIM, Pharmgkb, Pharmgkb-offside, Sider
-   - http://networkrepository.com/bio-diseasome.php --> RDF form of Disease network from diseasome
-   - https://go.drugbank.com/ --> latest drug-target from DrugBank
+- Data download (You can reuse the data download from the benchmark if you do not need to replace them with the preferred version):
+   - https://bio2rdf.org/ (RDF data of DrugBank, GOA, Irefindex, KEGG, Linkedspl, OMIM, Pharmgkb, Pharmgkb-offside, Sider)
+   - http://networkrepository.com/bio-diseasome.php (RDF form of Disease network from diseasome)
+   - https://go.drugbank.com/ (XML contains Drug-target associations from DrugBank)
    - replace the sample files at data_sample/input/done with  RDF files downloaded from bio2rdf and diseasome  data_sample/input/done
    - put latest drug-target from DrugBank (xml) to data_sample/output/datasets/orinigal
    
