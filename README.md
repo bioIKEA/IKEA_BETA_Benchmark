@@ -39,13 +39,13 @@ There were five types of evaluation tasks designed based on the different combin
 ## Downlaod the latest benchmark
 We have provided three sources for you, 1) benchmark-raw (raw data directly downloaded from each source),  2) benchmark-data (networks and mappings), 3) benchmark-tasks (a total of 1300 tasks). Please follow the path to download the archived benchmark and data. Please note, the archives are encrypted due to the copy-right policy regulated by the licenses (e.g., drugbank). If you want to use data for your study, please contact the author (Zong.nansu@mayo.edu) for decryption.
 
-- [benchmark raw](https://drive.google.com/file/d/1pWBYwhL4W514758r5su2qEQ4v0U_mM8n/view?usp=sharing)  ** These are the raw data **
-- [benchmark data](https://drive.google.com/file/d/11IZSdXXmOsl2uNUg7u9OqRr_UrKCGer3/view?usp=sharing) ** These are the benchmark data, i.e., networks and mappings **
-- [benchmark tasks](https://drive.google.com/file/d/17OriW3K1PaagUHzkSQWTmB06kV0rMVWw/view?usp=sharing) ** These are the evaluation tasks in the benchmark **
+- [benchmark raw](https://drive.google.com/file/d/1pWBYwhL4W514758r5su2qEQ4v0U_mM8n/view?usp=sharing)  These are the raw data
+- [benchmark data](https://drive.google.com/file/d/11IZSdXXmOsl2uNUg7u9OqRr_UrKCGer3/view?usp=sharing) These are the benchmark data, i.e., networks and mappings 
+- [benchmark tasks](https://drive.google.com/file/d/17OriW3K1PaagUHzkSQWTmB06kV0rMVWw/view?usp=sharing) These are the evaluation tasks in the benchmark
 
 
 ## Generate your own version of benchmark
-While we will regularly generate a new version of the benchmark based on the newly released raw data, we also provide the codes to enable the generation of your own benchmark. You need to download the data from each database.   
+We also provide the codes to enable the generation of your own benchmark. You need to download the data from each database.   
 
 - Data sources: 
    - [DrugBank](https://go.drugbank.com/)
@@ -75,5 +75,13 @@ While we will regularly generate a new version of the benchmark based on the new
   - Java src/main/Render_main.java ## **running all the data needs approximately 1 hour**
 - Benchmark generation:
   - Java src/main/Benchmark_main.java **running all the data needs approximately 3 hours**
+  
+# Version
+We regularly generate a new version of the benchmark based on the newly released raw data. The current version is 1.0. 
+- Version current = 1.0
+	- release date: October 10, 2021.
+	- specification: bio2redf release 4; Drugbank 5.1.7; ClinicalTrials by Mar 2021
+		
+
 # Contact
 For help or questions of using the application, please contact Zong.nansu@mayo.edu
