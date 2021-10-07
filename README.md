@@ -64,12 +64,12 @@ We also provide the codes to enable the generation of your own benchmark. You ne
    - data_sample/output/datasets/orignial (sample supplementary data to generate the network and evaluation tasks.)
    
 - Data space for the running program
-   - data_space/input/done put raw data here (input path of Render_main.java)
-   - data_space/output generate network data and mappings (output path of Render_main.java)
-   - data_space/output/datasets/orignial put supplementary data (input path of Benchmark_main.java)
-   	- data_space/output/datasets/orignial/drugbank.xml copy drugbank.xml here
-   	- data_space/output/datasets/orignial/sequence.txt copy gene sequence data here
-   	- data_space/output/datasets/orignial/smile.xml copy chemical structure data here
+   - data_space/input/done (put raw data here, input path of Render_main.java)
+   - data_space/output (generate network data and mappings, output path of Render_main.java)
+   - data_space/output/datasets/orignial (put supplementary data, input path of Benchmark_main.java)
+   	- data_space/output/datasets/orignial/drugbank.xml (copy drugbank.xml here)
+   	- data_space/output/datasets/orignial/sequence.txt (copy gene sequence data here)
+   	- data_space/output/datasets/orignial/smile.xml (copy chemical structure data here)
 
    
 - Environment:
