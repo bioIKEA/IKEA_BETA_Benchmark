@@ -43,6 +43,10 @@ We have provided three sources for you, 1) benchmark-raw (raw data directly down
 - [benchmark data](https://drive.google.com/file/d/11IZSdXXmOsl2uNUg7u9OqRr_UrKCGer3/view?usp=sharing)		*(These are the benchmark data, i.e., networks, similarity, chemical structure  & gene sequence, and mapping)*
 - [benchmark tasks](https://drive.google.com/file/d/17OriW3K1PaagUHzkSQWTmB06kV0rMVWw/view?usp=sharing)		*(These are the evaluation tasks in the benchmark)*
 
+## Dataloader
+We also provided a data loader that automatically download the data from remote. The program will unzip the files in your local ("benchmark/data" for network data and "benchmark/tasks" for tasks), and load all the files into the memory.
+
+- Java src/main/DataLoader.java "password"	
 
 ## Generate your own version of benchmark
 We also provide the codes to enable the generation of your own benchmark. You need to download the data from each database.   
