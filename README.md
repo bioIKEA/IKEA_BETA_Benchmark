@@ -87,7 +87,17 @@ We also provide the codes to enable the generation of your own benchmark. You ne
   - Java src/main/Render_main.java		*(running all the data needs approximately 1 hour)*
 - Benchmark generation:
   - Java src/main/Benchmark_main.java		*(running all the data needs approximately 3 hours)*
-  
+
+## Incorporate into BETA
+We provide the codes to enable the mapping of drugs, targets, and diseases to the corresponding entities in BETA. 
+
+* mappings for drugs based on the common IDs (UMLS, DBpedia, Wikipedia, KEGG, PubChem, Pharmgkb, Drugbank) refer to the examples in 'src/data/render/node/drugs/' 
+
+* mappings for targets based on the common IDs (UniProtKB, HGNC, GenAtlas, OMIM) refer to the examples in 'src/data/render/node/targets/'
+
+* mappings for disease based on the common IDs (DBpedia, UMLS, SNOMED CT, OMIM) refer to the examples in 'src/data/render/node/diseases/'
+
+
 # Version
 We regularly generate a new version of the benchmark based on the newly released raw data. The current version is 1.0. 
 - Version current = 1.0
